@@ -116,12 +116,12 @@ TextureImporter:
       name: brush_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 0
-        width: 214
-        height: 192
+        x: 1
+        y: 96
+        width: 223
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,11 +134,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: brush_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 224
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba40d53eb4cecc45b6fa733105e6258
+      internalID: 1888448596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7014f693c95441a48bfc187f292aa1c8
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +170,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
+      brush_1: 1888448596
+=======
       brush_0: 4552838390712430263
+>>>>>>> ded79df09c5823029fba401fb0089f329c559dcd
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
