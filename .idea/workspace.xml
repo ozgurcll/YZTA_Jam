@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bb3d2dc-9dbe-4870-8539-e50e693a41b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_Jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_Jump.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_attack.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_attack.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_death2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_death2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_hit.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_hit.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_knife.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_knife.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_static.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_static.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_teleportation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_teleportation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_throw.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_throw.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_walk.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Bat Animations/bat_walk.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Background Props.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Background Props.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Base Color.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Base Color.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Frontal Fog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Frontal Fog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Mid Fog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Background/Mid Fog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Background Props.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Background Props.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Buildings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Buildings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/MockUp-01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/MockUp-01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Props-01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Props-01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Tiles.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Graphics/Sidescroller Shooter - Central City/Social/Tiles.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2wYU37keLrHFGngLCi2EqGQmzLs" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bb3d2dc-9dbe-4870-8539-e50e693a41b3" name="Changes" comment="" />
+      <created>1746217799685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746217799685</updated>
+    </task>
+    <servers />
+  </component>
+</project>

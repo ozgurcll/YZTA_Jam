@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Background Props_0: -537221702989897742
+      Background Props_1: 2099543534126691682
+      Background Props_2: 2077725872974166712
+      Background Props_3: -5973527848854861943
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
