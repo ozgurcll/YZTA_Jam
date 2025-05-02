@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bat_teleportation_0: 8534171147107668182
+      bat_teleportation_1: 2758939923838424942
+      bat_teleportation_10: 3297212553243650994
+      bat_teleportation_11: 6585299533427822030
+      bat_teleportation_12: -5314302619640184540
+      bat_teleportation_13: 1763001290006946918
+      bat_teleportation_2: -7237527015359635193
+      bat_teleportation_3: 148481231337579958
+      bat_teleportation_4: 8156261621679177687
+      bat_teleportation_5: 2230201198246233279
+      bat_teleportation_6: 1349264437713523809
+      bat_teleportation_7: 620538084397875744
+      bat_teleportation_8: -335791272856641873
+      bat_teleportation_9: -5231047037299849230
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
