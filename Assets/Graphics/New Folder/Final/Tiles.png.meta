@@ -499,6 +499,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
       Tiles_10: 1021880481
       Tiles_11: -574760718
       Tiles_12: 1091125143
@@ -507,6 +508,16 @@ TextureImporter:
       Tiles_15: 571714357
       Tiles_8: 1054149291
       Tiles_9: -792412712
+=======
+      Tiles_0: 7223950226953391895
+      Tiles_1: -8377130690987618698
+      Tiles_2: -4684333735789482159
+      Tiles_3: -5062486230716756072
+      Tiles_4: 4099902767569298868
+      Tiles_5: -6833445872158455971
+      Tiles_6: -537749870668139058
+      Tiles_7: 1561205615984820651
+>>>>>>> ded79df09c5823029fba401fb0089f329c559dcd
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

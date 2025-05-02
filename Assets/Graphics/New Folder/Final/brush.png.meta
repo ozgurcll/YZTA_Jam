@@ -170,7 +170,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
       brush_1: 1888448596
+=======
+      brush_0: 4552838390712430263
+>>>>>>> ded79df09c5823029fba401fb0089f329c559dcd
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
