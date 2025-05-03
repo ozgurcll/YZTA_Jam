@@ -118,7 +118,13 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Graphics/RoboBoss/Left Leg Sprites.png.meta
+=======
+    buildTarget: Android
+=======
     buildTarget: DefaultTexturePlatform
+>>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -131,6 +137,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+>>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -338,6 +345,28 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Graphics/RoboBoss/Left Leg Sprites.png.meta
+      Left Leg Sprites_0: 950714129359837582
+      Left Leg Sprites_1: 3042385458877276814
+      Left Leg Sprites_2: 4106058252683977714
+      Left Leg Sprites_3: 9025510619203249793
+      Left Leg Sprites_4: -7959027530729007937
+      Left Leg Sprites_5: -8617403338843664915
+      Left Leg Sprites_6: -5294485845145871092
+      Left Leg Sprites_7: -732939099497276490
+      Left Leg Sprites_8: -6374200964772228449
+=======
+      Golem_1_idle_0: 3641206842415056288
+      Golem_1_idle_1: -5346422617274557279
+      Golem_1_idle_2: -4050087436769753263
+      Golem_1_idle_3: -6050510017157607022
+      Golem_1_idle_4: -3526272731087257150
+      Golem_1_idle_5: -106065556061340719
+      Golem_1_idle_6: 6968488508171074597
+      Golem_1_idle_7: 7786588115404116445
+>>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
+=======
       Golem_1_idle_0: 1371830274
       Golem_1_idle_1: 1198957999
       Golem_1_idle_2: -2058661080
@@ -346,6 +375,7 @@ TextureImporter:
       Golem_1_idle_5: -693227071
       Golem_1_idle_6: 562085604
       Golem_1_idle_7: -386596197
+>>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
