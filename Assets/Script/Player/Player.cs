@@ -5,8 +5,6 @@ using System.Collections;
 public class Player : Entity
 {
     public PlayerFx fx { get; private set; }
-    [Header("Attack details")]
-    public Vector2 attackMovement;
 
     [Header("Move info")]
     public float moveSpeed = 12f;
