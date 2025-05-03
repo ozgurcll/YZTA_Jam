@@ -473,20 +473,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Right Arm Sprites_0: 4539373767210905515
-      Right Arm Sprites_1: 8876547010377910528
-      Right Arm Sprites_10: 2133157641003969196
-      Right Arm Sprites_11: 6694805450651519854
-      Right Arm Sprites_12: -3336578710594865801
-      Right Arm Sprites_13: 3146951181649562789
-      Right Arm Sprites_2: -8490242900362916047
-      Right Arm Sprites_3: -8094261260530446044
-      Right Arm Sprites_4: 8119991140717650804
-      Right Arm Sprites_5: 3540491416121504301
-      Right Arm Sprites_6: 936262983573779374
-      Right Arm Sprites_7: 1963136373646058469
-      Right Arm Sprites_8: 1608082358637107232
-      Right Arm Sprites_9: -2597209396274620394
+      Golem_1_attack_0: -8202827640963373859
+      Golem_1_attack_1: -4330141590107089047
+      Golem_1_attack_10: 1425954299726288318
+      Golem_1_attack_11: 922787857792203877
+      Golem_1_attack_12: 5178838270350208600
+      Golem_1_attack_13: -4213399628179650151
+      Golem_1_attack_2: 6822457042559368046
+      Golem_1_attack_3: -8602315955426212433
+      Golem_1_attack_4: 4710624981754144640
+      Golem_1_attack_5: -8272546438946279230
+      Golem_1_attack_6: -6098713876489134856
+      Golem_1_attack_7: -3956282336900332924
+      Golem_1_attack_8: 80159502047401904
+      Golem_1_attack_9: 3400704551967492840
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

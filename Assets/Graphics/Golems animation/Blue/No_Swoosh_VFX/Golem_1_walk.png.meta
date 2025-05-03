@@ -373,15 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Left Leg Sprites_0: 950714129359837582
-      Left Leg Sprites_1: 3042385458877276814
-      Left Leg Sprites_2: 4106058252683977714
-      Left Leg Sprites_3: 9025510619203249793
-      Left Leg Sprites_4: -7959027530729007937
-      Left Leg Sprites_5: -8617403338843664915
-      Left Leg Sprites_6: -5294485845145871092
-      Left Leg Sprites_7: -732939099497276490
-      Left Leg Sprites_8: -6374200964772228449
+      Golem_1_walk_0: 5175484822342644775
+      Golem_1_walk_1: 7145368577757440244
+      Golem_1_walk_2: 3668113545366278642
+      Golem_1_walk_3: 3560413011806008074
+      Golem_1_walk_4: -1852207923889470867
+      Golem_1_walk_5: -7984011152290138843
+      Golem_1_walk_6: -3132998592984035555
+      Golem_1_walk_7: -7381214906031234670
+      Golem_1_walk_8: 1852743690599055226
+      Golem_1_walk_9: 1893436096413615750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
