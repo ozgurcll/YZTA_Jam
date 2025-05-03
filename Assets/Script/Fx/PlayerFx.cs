@@ -11,11 +11,8 @@ public class PlayerFx : EntityFx
     public Vector3 shakeDestroyObstacle;
     public Vector3 shakeFall;
 
-
-
     [Space]
     [SerializeField] private ParticleSystem dustFx;
-    [SerializeField] private ParticleSystem coinFx;
     protected override void Start()
     {
         base.Start();
@@ -31,11 +28,5 @@ public class PlayerFx : EntityFx
     {
         if (dustFx != null)
             dustFx.Play();
-    }
-
-    public void PlayCoinFX()
-    {
-        if (coinFx != null)
-            coinFx.Play();
     }
 }
