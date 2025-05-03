@@ -1,0 +1,41 @@
+using Unity.Cinemachine;
+using UnityEngine;
+
+public class PlayerFx : EntityFx
+{
+    [Header("Screen Shake FX")]
+    private CinemachineImpulseSource screenShake;
+    [SerializeField] private float shakeMultiplier;
+    public Vector3 shakeSwordImpact;
+    public Vector3 shakeHighDamage;
+    public Vector3 shakeDestroyObstacle;
+    public Vector3 shakeFall;
+
+
+
+    [Space]
+    [SerializeField] private ParticleSystem dustFx;
+    [SerializeField] private ParticleSystem coinFx;
+    protected override void Start()
+    {
+        base.Start();
+        screenShake = GetComponent<CinemachineImpulseSource>();
+    }
+
+    public void ScreenShake(Vector3 _shakePower)
+    {
+        screenShake.DefaultVelocity = new Vector3(_shakePower.x * player.facingDir, _shakePower.y) * shakeMultiplier;
+        screenShake.GenerateImpulse();
+    }
+    public void PlayDustFX()
+    {
+        if (dustFx != null)
+            dustFx.Play();
+    }
+
+    public void PlayCoinFX()
+    {
+        if (coinFx != null)
+            coinFx.Play();
+    }
+}
