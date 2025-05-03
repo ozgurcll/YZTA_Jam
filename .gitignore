@@ -247,3 +247,9 @@ Assets/Graphics/Golems animation/Mecha-stone Golem 0.1/ASE files/layered_charact
 Assets/Graphics/Materials/Portal.aseprite.meta
 Assets/Tileset/Giris Ekrani/Portal Giriş.aseprite.meta
 Packages/packages-lock.json
+Assets/Animator/Fx/HitFx_00.controller
+Assets/Animator/golem/idle.anim
+Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
+Assets/Prefabs/HitFX_00.prefab
+Assets/Scenes/Kopyaların kopyası/kopya/OzgurScene.unity
+Assets/Script/Fx/PlayerFx.cs
