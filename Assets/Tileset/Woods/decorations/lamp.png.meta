@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 68737e5ae9217d64bbedd05bfe99fe52
+guid: f4884425549356f479afc662c739ab56
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1854847231413705290
-    second: Robot Pieces_0
-  - first:
-      213: 8498952454435953730
-    second: Robot Pieces_1
-  - first:
-      213: -5897667241565666484
-    second: Robot Pieces_2
-  - first:
-      213: -7700923575975521992
-    second: Robot Pieces_3
-  - first:
-      213: -4422855285084578578
-    second: Robot Pieces_4
+      213: 2599969905456701152
+    second: lamp_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,79 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Robot Pieces_0
+      name: lamp_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 43
-        width: 25
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4ad705cabdbdb910800000000000000
-      internalID: 1854847231413705290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot Pieces_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 45
-        width: 34
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24cd6995a3852f570800000000000000
-      internalID: 8498952454435953730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot Pieces_2
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 45
-        width: 29
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c43450714e6472ea0800000000000000
-      internalID: -5897667241565666484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot Pieces_3
-      rect:
-        serializedVersion: 2
-        x: 14
+        x: 0
         y: 0
-        width: 29
-        height: 35
+        width: 23
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8315c831fc2d02590800000000000000
-      internalID: -7700923575975521992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Robot Pieces_4
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 0
-        width: 28
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eec139f2d8cde92c0800000000000000
-      internalID: -4422855285084578578
+      spriteID: 0eed3719ad2f41420800000000000000
+      internalID: 2599969905456701152
       vertices: []
       indices: 
       edges: []
@@ -247,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Robot Pieces_0: 1854847231413705290
-      Robot Pieces_1: 8498952454435953730
-      Robot Pieces_2: -5897667241565666484
-      Robot Pieces_3: -7700923575975521992
-      Robot Pieces_4: -4422855285084578578
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

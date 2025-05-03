@@ -1,34 +1,40 @@
 fileFormatVersion: 2
-guid: 6e61848e0f15d0941b8593c2897c8b45
+guid: cccea43698519244490f5d56cd0cf5b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1730766150553438200
-    second: Right Leg Sprites_0
+      213: -703694214479097736
+    second: shop_anim_0
   - first:
-      213: -9215862816984089777
-    second: Right Leg Sprites_1
+      213: 6383442354913522013
+    second: shop_anim_1
   - first:
-      213: 3144579475060271554
-    second: Right Leg Sprites_2
+      213: -6908235122186328917
+    second: shop_anim_2
   - first:
-      213: 236517763228215998
-    second: Right Leg Sprites_3
+      213: 6263233112828526159
+    second: shop_anim_3
   - first:
-      213: 7203038714047268231
-    second: Right Leg Sprites_4
+      213: 3879049702924754164
+    second: shop_anim_4
   - first:
-      213: -8699481619391351648
-    second: Right Leg Sprites_5
+      213: 8363047684650912007
+    second: shop_anim_5
   - first:
-      213: 8422255158617721952
-    second: Right Leg Sprites_6
+      213: 6148641648076903915
+    second: shop_anim_6
   - first:
-      213: 3097724663349388790
-    second: Right Leg Sprites_7
+      213: 2438464394787915291
+    second: shop_anim_7
   - first:
-      213: 3969161043451427412
-    second: Right Leg Sprites_8
+      213: 6290392290864417
+    second: shop_anim_8
+  - first:
+      213: -3090753169418455008
+    second: shop_anim_9
+  - first:
+      213: 833213197867434526
+    second: shop_anim_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,13 +143,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Right Leg Sprites_0
+      name: shop_anim_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 29
-        height: 35
+        x: 26
+        y: 99
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 808fdf62b551bf7e0800000000000000
-      internalID: -1730766150553438200
+      spriteID: 870d97b17d9fb36f0800000000000000
+      internalID: -703694214479097736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_1
+      name: shop_anim_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 29
-        height: 35
+        x: 148
+        y: 99
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4bbeee789daa1080800000000000000
-      internalID: -9215862816984089777
+      spriteID: d51bdc8300b869850800000000000000
+      internalID: 6383442354913522013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_2
+      name: shop_anim_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 29
-        height: 34
+        x: 266
+        y: 101
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9a3f23f5ac3ab20800000000000000
-      internalID: 3144579475060271554
+      spriteID: ba4e43df1c40120a0800000000000000
+      internalID: -6908235122186328917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_3
+      name: shop_anim_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 0
-        width: 29
-        height: 35
+        x: 383
+        y: 102
+        width: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebaa94c07a7484300800000000000000
-      internalID: 236517763228215998
+      spriteID: f4ebb9305597be650800000000000000
+      internalID: 6263233112828526159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_4
+      name: shop_anim_4
       rect:
         serializedVersion: 2
-        x: 130
+        x: 471
         y: 0
-        width: 29
-        height: 34
+        width: 120
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7858c2e0c8556f360800000000000000
-      internalID: 7203038714047268231
+      spriteID: 4fc1ae8172725d530800000000000000
+      internalID: 3879049702924754164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_5
+      name: shop_anim_5
       rect:
         serializedVersion: 2
-        x: 162
-        y: 0
-        width: 29
-        height: 35
+        x: 617
+        y: 98
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0a4732a1f8b354780800000000000000
-      internalID: -8699481619391351648
+      spriteID: 70945435f838f0470800000000000000
+      internalID: 8363047684650912007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_6
+      name: shop_anim_6
       rect:
         serializedVersion: 2
-        x: 194
+        x: 0
         y: 0
-        width: 29
-        height: 34
+        width: 119
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06c4c19917cd1e470800000000000000
-      internalID: 8422255158617721952
+      spriteID: be5dbc4800d545550800000000000000
+      internalID: 6148641648076903915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_7
+      name: shop_anim_7
       rect:
         serializedVersion: 2
-        x: 226
+        x: 117
         y: 0
-        width: 29
-        height: 32
+        width: 120
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +312,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f528ea3b245dfa20800000000000000
-      internalID: 3097724663349388790
+      spriteID: b1685c0927a27d120800000000000000
+      internalID: 2438464394787915291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Right Leg Sprites_8
+      name: shop_anim_8
       rect:
         serializedVersion: 2
-        x: 258
+        x: 235
         y: 0
-        width: 29
-        height: 32
+        width: 120
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,8 +334,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45abd3380fa451730800000000000000
-      internalID: 3969161043451427412
+      spriteID: 12daef51419561000800000000000000
+      internalID: 6290392290864417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_anim_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 120
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02876603e507b15d0800000000000000
+      internalID: -3090753169418455008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shop_anim_10
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 0
+        width: 119
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e124e092dfa209b00800000000000000
+      internalID: 833213197867434526
       vertices: []
       indices: 
       edges: []
@@ -347,16 +397,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Right Leg Sprites_0: -1730766150553438200
-      Right Leg Sprites_1: -9215862816984089777
-      Right Leg Sprites_2: 3144579475060271554
-      Right Leg Sprites_3: 236517763228215998
-      Right Leg Sprites_4: 7203038714047268231
-      Right Leg Sprites_5: -8699481619391351648
-      Right Leg Sprites_6: 8422255158617721952
-      Right Leg Sprites_7: 3097724663349388790
-      Right Leg Sprites_8: 3969161043451427412
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
