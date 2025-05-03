@@ -216,10 +216,10 @@ TextureImporter:
       name: Tiles_3
       rect:
         serializedVersion: 2
-        x: 159
-        y: 159
-        width: 162
-        height: 80
+        x: 160
+        y: 160
+        width: 81
+        height: 88
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,7 +502,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 81a428e294acc4a459db7bab6c8913f5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
