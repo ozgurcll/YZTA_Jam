@@ -6003,43 +6003,6 @@ Transform:
   - {fileID: 566219611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1780941189 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5877022871169014307, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-  m_PrefabInstance: {fileID: 5771917892259435277}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1780941191
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780941189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShowDebugText: 0
-  ShowCameraFrustum: 1
-  IgnoreTimeScale: 0
-  WorldUpOverride: {fileID: 0}
-  ChannelMask: -1
-  UpdateMethod: 2
-  BlendUpdateMethod: 1
-  LensModeOverride:
-    Enabled: 0
-    DefaultMode: 2
-  DefaultBlend:
-    Style: 1
-    Time: 2
-    CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  CustomBlends: {fileID: 0}
 --- !u!1 &1810284588
 GameObject:
   m_ObjectHideFlags: 0
@@ -13450,25 +13413,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 227548275421384087, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: moveSpeed
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 227548275421384087, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: whatIsWall.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 227548275421384087, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: whatIsGround.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
     - target: {fileID: 2843185816406651933, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3498340839680229189, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: orthographic size
-      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3898760046370181230, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13510,25 +13457,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4784319663085463089, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4784319663085463089, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4784319663085463089, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -10
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5877022871169014307, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1780941191}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cbb16b102b0a5460da9eb2810ca100d1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
