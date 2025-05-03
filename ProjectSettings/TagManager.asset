@@ -41,24 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-<<<<<<< HEAD
-    uniqueID: 2015126089
+  - name: background
+    uniqueID: 576128925
     locked: 0
-  - name: Midground
-    uniqueID: 1512334091
+  - name: midground
+    uniqueID: 240740277
     locked: 0
-  - name: Foreground
-    uniqueID: 2904663623
-=======
-    uniqueID: 3789545171
-    locked: 0
-  - name: Midground
-    uniqueID: 1586307471
-    locked: 0
-  - name: Player
-    uniqueID: 1588587989
->>>>>>> d4cdf4e0d40b2cca6fa531400ca3600142041e03
+  - name: player
+    uniqueID: 875522949
     locked: 0
   m_RenderingLayers:
   - Default
