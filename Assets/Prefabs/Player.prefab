@@ -93,10 +93,10 @@ MonoBehaviour:
   wallCheckDistance: 0.8
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   whatIsWall:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
   attackMovement: {x: 0, y: 0}
   moveSpeed: 5
   jumpForce: 12
