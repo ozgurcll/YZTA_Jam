@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Tileset/Woods/background.meta
 guid: 8cdeca358fef51b4b9b602f570eef5fa
+========
+guid: a80300c2f81dfda4e9ce87f2297e4fbf
+>>>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa:Assets/Tileset/Woods.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

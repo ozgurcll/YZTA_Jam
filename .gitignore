@@ -70,3 +70,172 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/Animator/Enemy/SkeletonWalk.anim
+Assets/Animator/Enemy/SkeletonWalk.anim.meta
+Assets/Animator/Enemy/Zombie1Attack.anim
+Assets/Animator/Enemy/Zombie1Attack.anim.meta
+Assets/Animator/Enemy/Zombie1Dead.anim
+Assets/Animator/Enemy/Zombie1Dead.anim.meta
+Assets/Animator/Enemy/Zombie1Hurt.anim
+Assets/Animator/Enemy/Zombie1Hurt.anim.meta
+Assets/Animator/Enemy/Zombie1Idle.anim
+Assets/Animator/Enemy/Zombie1Idle.anim.meta
+Assets/Animator/Enemy/Zombie1Walk.anim
+Assets/Animator/Enemy/Zombie1Walk.anim.meta
+Assets/Animator/Enemy/Zombie_AC.controller
+Assets/Animator/Enemy/Zombie_AC.controller.meta
+Assets/Animator/OrangeGolem/Gameobject.controller
+Assets/Animator/OrangeGolem/Gameobject.controller.meta
+Assets/Graphics/ForestAnimation/Zombie_1.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Attack.png
+Assets/Graphics/ForestAnimation/Zombie_1/Attack.png.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Dead.png
+Assets/Graphics/ForestAnimation/Zombie_1/Dead.png.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Hurt.png
+Assets/Graphics/ForestAnimation/Zombie_1/Hurt.png.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Idle.png
+Assets/Graphics/ForestAnimation/Zombie_1/Idle.png.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Dead.mat
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Dead.mat.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Hurt.mat
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Hurt.mat.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Idle.mat
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Idle.mat.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Walk.mat
+Assets/Graphics/ForestAnimation/Zombie_1/Materials/Walk.mat.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Walk.png
+Assets/Graphics/ForestAnimation/Zombie_1/Walk.png.meta
+Assets/Graphics/ForestAnimation/Zombie_2.meta
+Assets/Graphics/ForestAnimation/Zombie_2/Attack.png
+Assets/Graphics/ForestAnimation/Zombie_2/Attack.png.meta
+Assets/Graphics/ForestAnimation/Zombie_2/Dead.png
+Assets/Graphics/ForestAnimation/Zombie_2/Dead.png.meta
+Assets/Graphics/ForestAnimation/Zombie_2/Hurt.png
+Assets/Graphics/ForestAnimation/Zombie_2/Hurt.png.meta
+Assets/Graphics/ForestAnimation/Zombie_2/Idle.png
+Assets/Graphics/ForestAnimation/Zombie_2/Idle.png.meta
+Assets/Graphics/ForestAnimation/Zombie_2/Walk.png
+Assets/Graphics/ForestAnimation/Zombie_2/Walk.png.meta
+Assets/Graphics/ForestAnimation/Zombie_3.meta
+Assets/Graphics/ForestAnimation/Zombie_3/Attack.png
+Assets/Graphics/ForestAnimation/Zombie_3/Attack.png.meta
+Assets/Graphics/ForestAnimation/Zombie_3/Dead.png
+Assets/Graphics/ForestAnimation/Zombie_3/Dead.png.meta
+Assets/Graphics/ForestAnimation/Zombie_3/Hurt.png
+Assets/Graphics/ForestAnimation/Zombie_3/Hurt.png.meta
+Assets/Graphics/ForestAnimation/Zombie_3/Idle.png
+Assets/Graphics/ForestAnimation/Zombie_3/Idle.png.meta
+Assets/Graphics/ForestAnimation/Zombie_3/Walk.png
+Assets/Graphics/ForestAnimation/Zombie_3/Walk.png.meta
+Assets/Graphics/ForestAnimation/Zombie_4.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Attack.png
+Assets/Graphics/ForestAnimation/Zombie_4/Attack.png.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Dead.png
+Assets/Graphics/ForestAnimation/Zombie_4/Dead.png.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Hurt.png
+Assets/Graphics/ForestAnimation/Zombie_4/Hurt.png.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Idle.png
+Assets/Graphics/ForestAnimation/Zombie_4/Idle.png.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Materials.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Materials/Attack.mat
+Assets/Graphics/ForestAnimation/Zombie_4/Materials/Attack.mat.meta
+Assets/Graphics/ForestAnimation/Zombie_4/Walk.png
+Assets/Graphics/ForestAnimation/Zombie_4/Walk.png.meta
+Assets/Graphics/New Folder.meta
+Assets/Graphics/New Folder/Final.meta
+Assets/Graphics/New Folder/Final/Background_0.png
+Assets/Graphics/New Folder/Final/Background_0.png.meta
+Assets/Graphics/New Folder/Final/Background_1.png
+Assets/Graphics/New Folder/Final/Background_1.png.meta
+Assets/Graphics/New Folder/Final/Background_1_0.asset
+Assets/Graphics/New Folder/Final/Background_1_0.asset.meta
+Assets/Graphics/New Folder/Final/brush.png
+Assets/Graphics/New Folder/Final/brush.png.meta
+Assets/Graphics/New Folder/Final/brush_0.asset
+Assets/Graphics/New Folder/Final/brush_0.asset.meta
+Assets/Graphics/New Folder/Final/brush_1.asset
+Assets/Graphics/New Folder/Final/brush_1.asset.meta
+Assets/Graphics/New Folder/Final/Grass_background_1.png
+Assets/Graphics/New Folder/Final/Grass_background_1.png.meta
+Assets/Graphics/New Folder/Final/Grass_background_1_0.asset
+Assets/Graphics/New Folder/Final/Grass_background_1_0.asset.meta
+Assets/Graphics/New Folder/Final/Grass_background_2.png
+Assets/Graphics/New Folder/Final/Grass_background_2.png.meta
+Assets/Graphics/New Folder/Final/Grass_background_2_0.asset
+Assets/Graphics/New Folder/Final/Grass_background_2_0.asset.meta
+Assets/Graphics/New Folder/Final/Salt.png
+Assets/Graphics/New Folder/Final/Salt.png.meta
+Assets/Graphics/New Folder/Final/Salt_0.asset
+Assets/Graphics/New Folder/Final/Salt_0.asset.meta
+Assets/Graphics/New Folder/Final/Tiles.png
+Assets/Graphics/New Folder/Final/Tiles.png.meta
+Assets/Graphics/New Folder/Final/Tiles_0.asset
+Assets/Graphics/New Folder/Final/Tiles_0.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_1.asset
+Assets/Graphics/New Folder/Final/Tiles_1.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_10.asset
+Assets/Graphics/New Folder/Final/Tiles_10.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_11.asset
+Assets/Graphics/New Folder/Final/Tiles_11.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_12.asset
+Assets/Graphics/New Folder/Final/Tiles_12.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_13.asset
+Assets/Graphics/New Folder/Final/Tiles_13.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_14.asset
+Assets/Graphics/New Folder/Final/Tiles_14.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_15.asset
+Assets/Graphics/New Folder/Final/Tiles_15.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_16.asset
+Assets/Graphics/New Folder/Final/Tiles_16.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_2.asset
+Assets/Graphics/New Folder/Final/Tiles_2.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_3.asset
+Assets/Graphics/New Folder/Final/Tiles_3.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_4.asset
+Assets/Graphics/New Folder/Final/Tiles_4.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_5.asset
+Assets/Graphics/New Folder/Final/Tiles_5.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_6.asset
+Assets/Graphics/New Folder/Final/Tiles_6.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_7.asset
+Assets/Graphics/New Folder/Final/Tiles_7.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_8.asset
+Assets/Graphics/New Folder/Final/Tiles_8.asset.meta
+Assets/Graphics/New Folder/Final/Tiles_9.asset
+Assets/Graphics/New Folder/Final/Tiles_9.asset.meta
+Assets/Graphics/New Folder/Social.meta
+Assets/Graphics/New Folder/Social/Autor_note.txt
+Assets/Graphics/New Folder/Social/Autor_note.txt.meta
+Assets/Graphics/New Folder/Social/moon.png
+Assets/Graphics/New Folder/Social/moon.png.meta
+Assets/Graphics/New Folder/Social/test_1.png
+Assets/Graphics/New Folder/Social/test_1.png.meta
+Assets/Graphics/New Folder/Social/test_2.png
+Assets/Graphics/New Folder/Social/test_2.png.meta
+Assets/Animator/Enemy/SkeletonWalk.anim
+Assets/Animator/Enemy/Zombie1Dead.anim.meta
+Assets/Animator/Enemy/Zombie_AC.controller.meta
+Assets/Animator/Fx.meta
+Assets/Animator/Fx/HitFx_00.anim.meta
+Assets/Animator/Fx/HitFx_00.controller.meta
+Assets/Animator/OrangeGolem.meta
+Assets/Animator/OrangeGolem/Attack.anim.meta
+Assets/Animator/OrangeGolem/Die.anim.meta
+Assets/Animator/OrangeGolem/Idle0.anim
+Assets/Animator/OrangeGolem/Idle0.anim.meta
+Assets/Animator/OrangeGolem/Move.anim.meta
+Assets/Animator/OrangeGolem/OrangeGolem_AC.controller.meta
+Assets/Graphics/ForestAnimation/Zombie_1.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials.meta
+Assets/Graphics/ForestAnimation/Zombie_2.meta
+Assets/Graphics/ForestAnimation/Zombie_3.meta
+Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_attack.png.meta
+Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
+Assets/Graphics/Golems animation/Orange/No_Swoosh_VFX/Golem_1_attack.png.meta
+Assets/Graphics/shards01.png.meta
+Assets/Material.meta
+Assets/Material/FlashMatFX.mat
+Assets/Material/FlashMatFX.mat.meta
+Assets/Scenes/kopya/OzgurScene.unity
+Assets/Script/Fx/PlayerFx.cs
