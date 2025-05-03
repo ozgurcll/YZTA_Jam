@@ -214,3 +214,28 @@ Assets/Graphics/New Folder/Social/test_1.png.meta
 Assets/Graphics/New Folder/Social/test_2.png
 Assets/Graphics/New Folder/Social/test_2.png.meta
 Assets/Animator/Enemy/SkeletonWalk.anim
+Assets/Animator/Enemy/Zombie1Dead.anim.meta
+Assets/Animator/Enemy/Zombie_AC.controller.meta
+Assets/Animator/Fx.meta
+Assets/Animator/Fx/HitFx_00.anim.meta
+Assets/Animator/Fx/HitFx_00.controller.meta
+Assets/Animator/OrangeGolem.meta
+Assets/Animator/OrangeGolem/Attack.anim.meta
+Assets/Animator/OrangeGolem/Die.anim.meta
+Assets/Animator/OrangeGolem/Idle0.anim
+Assets/Animator/OrangeGolem/Idle0.anim.meta
+Assets/Animator/OrangeGolem/Move.anim.meta
+Assets/Animator/OrangeGolem/OrangeGolem_AC.controller.meta
+Assets/Graphics/ForestAnimation/Zombie_1.meta
+Assets/Graphics/ForestAnimation/Zombie_1/Materials.meta
+Assets/Graphics/ForestAnimation/Zombie_2.meta
+Assets/Graphics/ForestAnimation/Zombie_3.meta
+Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_attack.png.meta
+Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
+Assets/Graphics/Golems animation/Orange/No_Swoosh_VFX/Golem_1_attack.png.meta
+Assets/Graphics/shards01.png.meta
+Assets/Material.meta
+Assets/Material/FlashMatFX.mat
+Assets/Material/FlashMatFX.mat.meta
+Assets/Scenes/kopya/OzgurScene.unity
+Assets/Script/Fx/PlayerFx.cs

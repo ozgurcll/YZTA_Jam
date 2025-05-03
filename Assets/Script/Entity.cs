@@ -8,6 +8,7 @@ public class Entity : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
 
     public SpriteRenderer sr { get; private set; }
+    public CharacterStats stats { get; private set; }
     public CapsuleCollider2D cd { get; private set; }
     #endregion
 
@@ -44,6 +45,7 @@ public class Entity : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
 
+        stats = GetComponent<CharacterStats>();
         cd = GetComponent<CapsuleCollider2D>();
     }
 
