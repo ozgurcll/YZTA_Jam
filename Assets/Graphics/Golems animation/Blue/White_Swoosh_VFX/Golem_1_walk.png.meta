@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,10 +143,10 @@ TextureImporter:
       name: Golem_1_walk_0
       rect:
         serializedVersion: 2
-        x: 28
+        x: 0
         y: 0
-        width: 33
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: Golem_1_walk_1
       rect:
         serializedVersion: 2
-        x: 118
+        x: 90
         y: 0
-        width: 34
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: Golem_1_walk_2
       rect:
         serializedVersion: 2
-        x: 208
+        x: 180
         y: 0
-        width: 36
-        height: 40
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: Golem_1_walk_3
       rect:
         serializedVersion: 2
-        x: 297
+        x: 270
         y: 0
-        width: 37
-        height: 41
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,10 +231,10 @@ TextureImporter:
       name: Golem_1_walk_4
       rect:
         serializedVersion: 2
-        x: 384
+        x: 360
         y: 0
-        width: 41
-        height: 40
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,10 +253,10 @@ TextureImporter:
       name: Golem_1_walk_5
       rect:
         serializedVersion: 2
-        x: 473
+        x: 450
         y: 0
-        width: 44
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -275,10 +275,10 @@ TextureImporter:
       name: Golem_1_walk_6
       rect:
         serializedVersion: 2
-        x: 566
+        x: 540
         y: 0
-        width: 40
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Golem_1_walk_7
       rect:
         serializedVersion: 2
-        x: 657
+        x: 630
         y: 0
-        width: 38
-        height: 40
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: Golem_1_walk_8
       rect:
         serializedVersion: 2
-        x: 748
+        x: 720
         y: 0
-        width: 35
-        height: 41
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,10 +341,10 @@ TextureImporter:
       name: Golem_1_walk_9
       rect:
         serializedVersion: 2
-        x: 838
+        x: 810
         y: 0
-        width: 34
-        height: 40
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c725a802980754bc3949d9663c3f6600
     internalID: 0
     vertices: []
     indices: 
@@ -371,31 +371,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":10.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-<<<<<<< HEAD:Assets/Graphics/RoboBoss/Death Beam Spawn Sprite Sheet.png.meta
-      Death Beam Spawn Sprite Sheet_0: 1456365578138093308
-      Death Beam Spawn Sprite Sheet_1: 4728018250934386540
-      Death Beam Spawn Sprite Sheet_10: 5807280162155090974
-      Death Beam Spawn Sprite Sheet_2: 6414043402456335766
-      Death Beam Spawn Sprite Sheet_3: 1075416179577657392
-      Death Beam Spawn Sprite Sheet_4: 2915168527033459664
-      Death Beam Spawn Sprite Sheet_5: -7218318308242777522
-      Death Beam Spawn Sprite Sheet_6: 2690529582219022984
-      Death Beam Spawn Sprite Sheet_7: -1229121362865647504
-      Death Beam Spawn Sprite Sheet_8: 5400082698512625011
-      Death Beam Spawn Sprite Sheet_9: 4215781413245595499
-=======
-      Left Leg Sprites_0: 950714129359837582
-      Left Leg Sprites_1: 3042385458877276814
-      Left Leg Sprites_2: 4106058252683977714
-      Left Leg Sprites_3: 9025510619203249793
-      Left Leg Sprites_4: -7959027530729007937
-      Left Leg Sprites_5: -8617403338843664915
-      Left Leg Sprites_6: -5294485845145871092
-      Left Leg Sprites_7: -732939099497276490
-      Left Leg Sprites_8: -6374200964772228449
->>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_walk.png.meta
+      Golem_1_walk_0: 5175484822342644775
+      Golem_1_walk_1: 7145368577757440244
+      Golem_1_walk_2: 3668113545366278642
+      Golem_1_walk_3: 3560413011806008074
+      Golem_1_walk_4: -1852207923889470867
+      Golem_1_walk_5: -7984011152290138843
+      Golem_1_walk_6: -3132998592984035555
+      Golem_1_walk_7: -7381214906031234670
+      Golem_1_walk_8: 1852743690599055226
+      Golem_1_walk_9: 1893436096413615750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
