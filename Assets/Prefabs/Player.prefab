@@ -101,7 +101,7 @@ MonoBehaviour:
   moveSpeed: 4
   jumpForce: 12
   knifePrefab: {fileID: 3017133045620880705, guid: d10f9e7d4625b44d69a0a9dae5fbb747, type: 3}
-  knifeSpeed: 10
+  knifeSpeed: 20
 --- !u!70 &154813773448925252
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
