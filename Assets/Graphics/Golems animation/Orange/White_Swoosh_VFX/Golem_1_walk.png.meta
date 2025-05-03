@@ -1,40 +1,37 @@
 fileFormatVersion: 2
-guid: 47dd63962dd120e40980943f17983d82
+guid: d036d21469bec8540b4ee02828356353
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1456365578138093308
-    second: Death Beam Spawn Sprite Sheet_0
+      213: 5175484822342644775
+    second: Golem_1_walk_0
   - first:
-      213: 4728018250934386540
-    second: Death Beam Spawn Sprite Sheet_1
+      213: 7145368577757440244
+    second: Golem_1_walk_1
   - first:
-      213: 6414043402456335766
-    second: Death Beam Spawn Sprite Sheet_2
+      213: 3668113545366278642
+    second: Golem_1_walk_2
   - first:
-      213: 1075416179577657392
-    second: Death Beam Spawn Sprite Sheet_3
+      213: 3560413011806008074
+    second: Golem_1_walk_3
   - first:
-      213: 2915168527033459664
-    second: Death Beam Spawn Sprite Sheet_4
+      213: -1852207923889470867
+    second: Golem_1_walk_4
   - first:
-      213: -7218318308242777522
-    second: Death Beam Spawn Sprite Sheet_5
+      213: -7984011152290138843
+    second: Golem_1_walk_5
   - first:
-      213: 2690529582219022984
-    second: Death Beam Spawn Sprite Sheet_6
+      213: -3132998592984035555
+    second: Golem_1_walk_6
   - first:
-      213: -1229121362865647504
-    second: Death Beam Spawn Sprite Sheet_7
+      213: -7381214906031234670
+    second: Golem_1_walk_7
   - first:
-      213: 5400082698512625011
-    second: Death Beam Spawn Sprite Sheet_8
+      213: 1852743690599055226
+    second: Golem_1_walk_8
   - first:
-      213: 4215781413245595499
-    second: Death Beam Spawn Sprite Sheet_9
-  - first:
-      213: 5807280162155090974
-    second: Death Beam Spawn Sprite Sheet_10
+      213: 1893436096413615750
+    second: Golem_1_walk_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -143,166 +140,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_0
+      name: Golem_1_walk_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 727
-        width: 28
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf60704f6cc063410800000000000000
-      internalID: 1456365578138093308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 664
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6ff1829c8b4d9140800000000000000
-      internalID: 4728018250934386540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 594
-        width: 31
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6950951dd72430950800000000000000
-      internalID: 6414043402456335766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 531
-        width: 25
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0381f694155acee00800000000000000
-      internalID: 1075416179577657392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 459
-        width: 54
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d36a328452c47820800000000000000
-      internalID: 2915168527033459664
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 397
-        width: 55
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4a9d713eb163db90800000000000000
-      internalID: -7218318308242777522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 332
-        width: 56
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88258d5666ea65520800000000000000
-      internalID: 2690529582219022984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 269
-        width: 54
+        x: 28
+        y: 0
+        width: 33
         height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -312,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0709c84f1a841fee0800000000000000
-      internalID: -1229121362865647504
+      spriteID: 724b828660403d740800000000000000
+      internalID: 5175484822342644775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_8
+      name: Golem_1_walk_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 210
-        width: 50
-        height: 27
+        x: 118
+        y: 0
+        width: 34
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +177,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37de39a7a92f0fa40800000000000000
-      internalID: 5400082698512625011
+      spriteID: 4f8687a1dd2792360800000000000000
+      internalID: 7145368577757440244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_9
+      name: Golem_1_walk_2
       rect:
         serializedVersion: 2
-        x: 18
-        y: 150
-        width: 46
-        height: 19
+        x: 208
+        y: 0
+        width: 36
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6fa233fbd6718a30800000000000000
-      internalID: 4215781413245595499
+      spriteID: 2f11b53c5d1c7e230800000000000000
+      internalID: 3668113545366278642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Beam Spawn Sprite Sheet_10
+      name: Golem_1_walk_3
       rect:
         serializedVersion: 2
-        x: 22
-        y: 90
-        width: 42
-        height: 11
+        x: 297
+        y: 0
+        width: 37
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,8 +221,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e145d680a8a979050800000000000000
-      internalID: 5807280162155090974
+      spriteID: a03306635c0296130800000000000000
+      internalID: 3560413011806008074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d628766e4b2ab46e0800000000000000
+      internalID: -1852207923889470867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5253df87828133190800000000000000
+      internalID: -7984011152290138843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f4367016a5584d0800000000000000
+      internalID: -3132998592984035555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_7
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 0
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291a03b7628a09990800000000000000
+      internalID: -7381214906031234670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_8
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb002029446b910800000000000000
+      internalID: 1852743690599055226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golem_1_walk_9
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 0
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c2ab0916d64a10800000000000000
+      internalID: 1893436096413615750
       vertices: []
       indices: 
       edges: []
@@ -398,17 +373,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Death Beam Spawn Sprite Sheet_0: 1456365578138093308
-      Death Beam Spawn Sprite Sheet_1: 4728018250934386540
-      Death Beam Spawn Sprite Sheet_10: 5807280162155090974
-      Death Beam Spawn Sprite Sheet_2: 6414043402456335766
-      Death Beam Spawn Sprite Sheet_3: 1075416179577657392
-      Death Beam Spawn Sprite Sheet_4: 2915168527033459664
-      Death Beam Spawn Sprite Sheet_5: -7218318308242777522
-      Death Beam Spawn Sprite Sheet_6: 2690529582219022984
-      Death Beam Spawn Sprite Sheet_7: -1229121362865647504
-      Death Beam Spawn Sprite Sheet_8: 5400082698512625011
-      Death Beam Spawn Sprite Sheet_9: 4215781413245595499
+      Right Leg Sprites_0: -1730766150553438200
+      Right Leg Sprites_1: -9215862816984089777
+      Right Leg Sprites_2: 3144579475060271554
+      Right Leg Sprites_3: 236517763228215998
+      Right Leg Sprites_4: 7203038714047268231
+      Right Leg Sprites_5: -8699481619391351648
+      Right Leg Sprites_6: 8422255158617721952
+      Right Leg Sprites_7: 3097724663349388790
+      Right Leg Sprites_8: 3969161043451427412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

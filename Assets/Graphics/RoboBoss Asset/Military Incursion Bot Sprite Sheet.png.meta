@@ -258,6 +258,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1484,7 +1497,62 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Military Incursion Bot Sprite Sheet_0: -3802633920241361954
+      Military Incursion Bot Sprite Sheet_1: -2750000736995810929
+      Military Incursion Bot Sprite Sheet_10: -6718231261526431563
+      Military Incursion Bot Sprite Sheet_11: 8832928332923361551
+      Military Incursion Bot Sprite Sheet_12: 1938354188820115948
+      Military Incursion Bot Sprite Sheet_13: -8353243876722194192
+      Military Incursion Bot Sprite Sheet_14: 4112856481689313552
+      Military Incursion Bot Sprite Sheet_15: -7484253322088460240
+      Military Incursion Bot Sprite Sheet_16: -1736858583679034092
+      Military Incursion Bot Sprite Sheet_17: -7628030578283850117
+      Military Incursion Bot Sprite Sheet_18: 927592269636286094
+      Military Incursion Bot Sprite Sheet_19: 9114172166453356736
+      Military Incursion Bot Sprite Sheet_2: -8679723522897249065
+      Military Incursion Bot Sprite Sheet_20: 9148987186831445115
+      Military Incursion Bot Sprite Sheet_21: -3808100023404687351
+      Military Incursion Bot Sprite Sheet_22: 3210900812961971194
+      Military Incursion Bot Sprite Sheet_23: -6110952208445641486
+      Military Incursion Bot Sprite Sheet_24: 5759144691402983121
+      Military Incursion Bot Sprite Sheet_25: -8216739629918524076
+      Military Incursion Bot Sprite Sheet_26: -497953169078005785
+      Military Incursion Bot Sprite Sheet_27: 6458058992943932569
+      Military Incursion Bot Sprite Sheet_28: -4058927194475344995
+      Military Incursion Bot Sprite Sheet_29: -3983059352617720791
+      Military Incursion Bot Sprite Sheet_3: -5297590982486588439
+      Military Incursion Bot Sprite Sheet_30: -3904158088123082180
+      Military Incursion Bot Sprite Sheet_31: -4641677810323048937
+      Military Incursion Bot Sprite Sheet_32: -8548767268283168819
+      Military Incursion Bot Sprite Sheet_33: -8366069290470190649
+      Military Incursion Bot Sprite Sheet_34: -6251283566372044062
+      Military Incursion Bot Sprite Sheet_35: 360934914040132805
+      Military Incursion Bot Sprite Sheet_36: -3063975254664986492
+      Military Incursion Bot Sprite Sheet_37: -2083078288096157568
+      Military Incursion Bot Sprite Sheet_38: 3825774609130614656
+      Military Incursion Bot Sprite Sheet_39: -2488525345142785088
+      Military Incursion Bot Sprite Sheet_4: 3885945845315971869
+      Military Incursion Bot Sprite Sheet_40: -4145191538677195664
+      Military Incursion Bot Sprite Sheet_41: 5115699680255574007
+      Military Incursion Bot Sprite Sheet_42: -7776093139043057142
+      Military Incursion Bot Sprite Sheet_43: -6096009270004588206
+      Military Incursion Bot Sprite Sheet_44: -912510752707426577
+      Military Incursion Bot Sprite Sheet_45: 7429161357921606269
+      Military Incursion Bot Sprite Sheet_46: -1819923341888546103
+      Military Incursion Bot Sprite Sheet_47: -1965973893883253252
+      Military Incursion Bot Sprite Sheet_48: -2600811424404634963
+      Military Incursion Bot Sprite Sheet_49: -1418909210809629395
+      Military Incursion Bot Sprite Sheet_5: 3270312685571791870
+      Military Incursion Bot Sprite Sheet_50: 6774902503194702511
+      Military Incursion Bot Sprite Sheet_51: 364199780591570888
+      Military Incursion Bot Sprite Sheet_52: -2778238955053516087
+      Military Incursion Bot Sprite Sheet_53: 2013089393452702050
+      Military Incursion Bot Sprite Sheet_54: -8314816522140299237
+      Military Incursion Bot Sprite Sheet_6: -6460216038813289762
+      Military Incursion Bot Sprite Sheet_7: -7560352474495545813
+      Military Incursion Bot Sprite Sheet_8: -4439038651440181173
+      Military Incursion Bot Sprite Sheet_9: 5029562857793645607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
