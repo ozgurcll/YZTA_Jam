@@ -1,0 +1,16 @@
+using UnityEngine;
+
+public class UI_PanoInteraction : MonoBehaviour
+{
+    [SerializeField] private GameObject panoInteractionPanel;
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        panoInteractionPanel.SetActive(true);
+    }
+
+    void OnTriggerExit2D(Collider2D collision)
+    {
+        panoInteractionPanel.SetActive(false);
+    }
+}
