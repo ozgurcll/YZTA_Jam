@@ -326,7 +326,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e1fdb2a5a585a7447ab667a342ed50de
-      internalID: 1054149291
+      internalID: 857779327251732012
       vertices: []
       indices: 
       edges: []
@@ -348,7 +348,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c307ffa33681bb441aacf4242496fcf8
-      internalID: -792412712
+      internalID: 3825752689756085014
       vertices: []
       indices: 
       edges: []
@@ -370,7 +370,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: dc69a0de85cd92f46946e6baec94c088
-      internalID: 1021880481
+      internalID: 7477827516038983822
       vertices: []
       indices: 
       edges: []
@@ -392,7 +392,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 56f9138f993d14047b3ca8ae1d14ad41
-      internalID: -574760718
+      internalID: 3930821917377472818
       vertices: []
       indices: 
       edges: []
@@ -414,7 +414,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 44e4c08068e4b2f4a8635e2375c9abcf
-      internalID: 1091125143
+      internalID: -47299315171432025
       vertices: []
       indices: 
       edges: []
@@ -436,7 +436,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9b6be60423262064b9379fd52fcaa2f9
-      internalID: 933550274
+      internalID: 9045646400296435942
       vertices: []
       indices: 
       edges: []
@@ -458,7 +458,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e40c749021257e4396fad0328977a54
-      internalID: -1600703563
+      internalID: -6765242926017629268
       vertices: []
       indices: 
       edges: []
@@ -480,7 +480,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: aaf8b8315290ee14d843843bbec4a890
-      internalID: 571714357
+      internalID: -8637159173488095169
       vertices: []
       indices: 
       edges: []
@@ -499,25 +499,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< HEAD
-      Tiles_10: 1021880481
-      Tiles_11: -574760718
-      Tiles_12: 1091125143
-      Tiles_13: 933550274
-      Tiles_14: -1600703563
-      Tiles_15: 571714357
-      Tiles_8: 1054149291
-      Tiles_9: -792412712
-=======
       Tiles_0: 7223950226953391895
       Tiles_1: -8377130690987618698
+      Tiles_10: 7477827516038983822
+      Tiles_11: 3930821917377472818
+      Tiles_12: -47299315171432025
+      Tiles_13: 9045646400296435942
+      Tiles_14: -6765242926017629268
+      Tiles_15: -8637159173488095169
       Tiles_2: -4684333735789482159
       Tiles_3: -5062486230716756072
       Tiles_4: 4099902767569298868
       Tiles_5: -6833445872158455971
       Tiles_6: -537749870668139058
       Tiles_7: 1561205615984820651
->>>>>>> ded79df09c5823029fba401fb0089f329c559dcd
+      Tiles_8: 857779327251732012
+      Tiles_9: 3825752689756085014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
