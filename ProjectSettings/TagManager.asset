@@ -42,19 +42,22 @@ TagManager:
     uniqueID: 0
     locked: 0
   - name: Background
-    uniqueID: 2015126089
+    uniqueID: 1805574165
     locked: 0
   - name: Midground
-    uniqueID: 1512334091
+    uniqueID: 1119591595
     locked: 0
-  - name: "\u0131nter"
-    uniqueID: 149239755
+  - name: Player
+    uniqueID: 3670118769
     locked: 0
+<<<<<<< HEAD
   - name: Foreground
     uniqueID: 2904663623
     locked: 0
   - name: Player
     uniqueID: 1744285519
     locked: 0
+=======
+>>>>>>> 6869874313331bed5b0ac6656d0dec448979b417
   m_RenderingLayers:
   - Default
