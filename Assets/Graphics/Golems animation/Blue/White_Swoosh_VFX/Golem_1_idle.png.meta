@@ -118,13 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD
-<<<<<<< HEAD:Assets/Graphics/RoboBoss/Left Leg Sprites.png.meta
-=======
-    buildTarget: Android
-=======
     buildTarget: DefaultTexturePlatform
->>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -137,7 +131,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
->>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -169,8 +162,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73cd02169950d4e028e2ba18a01d74e5
-      internalID: 1371830274
+      spriteID: f0eaeb0c21fea48cfae1287671395daf
+      internalID: -660385379
       vertices: []
       indices: 
       edges: []
@@ -191,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd68e171489664847a4c08bc7beeb8fb
-      internalID: 1198957999
+      spriteID: fd5d29b0103c54a1e8152e07ff7f490f
+      internalID: -1062833877
       vertices: []
       indices: 
       edges: []
@@ -213,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f23a6e1c60d4d4c6c8306bd7161e5ae5
-      internalID: -2058661080
+      spriteID: ef69ccefc198647059561b1036c49ec5
+      internalID: -1209400296
       vertices: []
       indices: 
       edges: []
@@ -235,8 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ca09c572339941b3982202b6a64cd21
-      internalID: -1355468065
+      spriteID: 417c2d3e130ad4318801663a5fcc4bd5
+      internalID: -334918128
       vertices: []
       indices: 
       edges: []
@@ -257,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02eff73abf0b4453c9fd168f0e709bb4
-      internalID: 147173831
+      spriteID: 098b2ecea07704a7b80cc5bd60b61454
+      internalID: 1085103811
       vertices: []
       indices: 
       edges: []
@@ -279,8 +272,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7dc2979548f4c189a1e5a3ac27ccb6
-      internalID: -693227071
+      spriteID: 4a97b18282266401f92dfa9cfad2fc14
+      internalID: 768751512
       vertices: []
       indices: 
       edges: []
@@ -301,8 +294,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdad62c016c7e47da855b02846617618
-      internalID: 562085604
+      spriteID: a77d75ccb06ac44928296496cbcdff21
+      internalID: 1187253895
       vertices: []
       indices: 
       edges: []
@@ -323,8 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05119421f285f4a8494a3b4e0ec7d0c0
-      internalID: -386596197
+      spriteID: f01cec0620e59400a9fc569dae56ac87
+      internalID: -188568063
       vertices: []
       indices: 
       edges: []
@@ -333,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5bed265843e684e858fdc6a8cf2811bb
+    spriteID: 27f65270a27ad4a989b969e80c9b2dae
     internalID: 0
     vertices: []
     indices: 
@@ -345,37 +338,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-<<<<<<< HEAD
-<<<<<<< HEAD:Assets/Graphics/RoboBoss/Left Leg Sprites.png.meta
-      Left Leg Sprites_0: 950714129359837582
-      Left Leg Sprites_1: 3042385458877276814
-      Left Leg Sprites_2: 4106058252683977714
-      Left Leg Sprites_3: 9025510619203249793
-      Left Leg Sprites_4: -7959027530729007937
-      Left Leg Sprites_5: -8617403338843664915
-      Left Leg Sprites_6: -5294485845145871092
-      Left Leg Sprites_7: -732939099497276490
-      Left Leg Sprites_8: -6374200964772228449
-=======
-      Golem_1_idle_0: 3641206842415056288
-      Golem_1_idle_1: -5346422617274557279
-      Golem_1_idle_2: -4050087436769753263
-      Golem_1_idle_3: -6050510017157607022
-      Golem_1_idle_4: -3526272731087257150
-      Golem_1_idle_5: -106065556061340719
-      Golem_1_idle_6: 6968488508171074597
-      Golem_1_idle_7: 7786588115404116445
->>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Blue/White_Swoosh_VFX/Golem_1_idle.png.meta
-=======
-      Golem_1_idle_0: 1371830274
-      Golem_1_idle_1: 1198957999
-      Golem_1_idle_2: -2058661080
-      Golem_1_idle_3: -1355468065
-      Golem_1_idle_4: 147173831
-      Golem_1_idle_5: -693227071
-      Golem_1_idle_6: 562085604
-      Golem_1_idle_7: -386596197
->>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa
+      Golem_1_idle_0: -660385379
+      Golem_1_idle_1: -1062833877
+      Golem_1_idle_2: -1209400296
+      Golem_1_idle_3: -334918128
+      Golem_1_idle_4: 1085103811
+      Golem_1_idle_5: 768751512
+      Golem_1_idle_6: 1187253895
+      Golem_1_idle_7: -188568063
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

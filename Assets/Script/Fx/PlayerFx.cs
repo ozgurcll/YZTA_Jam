@@ -7,11 +7,6 @@ public class PlayerFx : EntityFx
     private CinemachineImpulseSource screenShake;
     [SerializeField] private float shakeMultiplier;
     public Vector3 shakeHighDamage;
-<<<<<<< HEAD
-    public Vector3 shakeDestroyObstacle;
-    public Vector3 shakeFall;
-=======
->>>>>>> 532d528f9a1b6bdb817c291f4e8123d13176bfaa
 
     [Space]
     [SerializeField] private ParticleSystem dustFx;
