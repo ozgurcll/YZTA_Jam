@@ -1,16 +1,38 @@
 using UnityEngine;
 
-public class PlayerStats : MonoBehaviour
+public class PlayerStats : CharacterStats
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Player player;
+    protected override void Start()
     {
-        
+        base.Start();
+
+        player = GetComponent<Player>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void TakeDamage(int _damage)
     {
-        
+        base.TakeDamage(_damage);
+    }
+
+    protected override void Die()
+    {
+        base.Die();
+
+        player.Die();
+    }
+
+    protected override void DecreaseHealthBy(int _damage)
+    {
+        base.DecreaseHealthBy(_damage);
+
+        if (isDead)
+            return;
+
+        if (_damage > GetMaxHealthValue() * .3f)
+        {
+            player.SetupKnockbackPower(new Vector2(10, 6));
+            player.fx.ScreenShake(player.fx.shakeHighDamage);
+        }
     }
 }
