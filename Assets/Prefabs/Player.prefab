@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2322620784209538294}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,10 @@ GameObject:
   - component: {fileID: 227548275421384087}
   - component: {fileID: 154813773448925252}
   - component: {fileID: 4964469677300296160}
-  m_Layer: 0
+  - component: {fileID: 2626179972035909725}
+  - component: {fileID: 6099831737551429846}
+  - component: {fileID: 1632827982893918750}
+  m_Layer: 13
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -82,7 +85,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5fc03fe3e1e048ff9f6eec39dda6a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackPower: {x: 7, y: 12}
+  knockbackPower: {x: 2, y: 2}
   knockbackOffset: {x: 0.5, y: 2}
   knockbackDuration: 0.07
   attackCheck: {fileID: 4261814303051141388}
@@ -93,11 +96,10 @@ MonoBehaviour:
   wallCheckDistance: 0.8
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   whatIsWall:
     serializedVersion: 2
-    m_Bits: 0
-  attackMovement: {x: 0, y: 0}
+    m_Bits: 64
   moveSpeed: 5
   jumpForce: 12
   knifePrefab: {fileID: 3017133045620880705, guid: d10f9e7d4625b44d69a0a9dae5fbb747, type: 3}
@@ -166,6 +168,96 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &2626179972035909725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843185816406651933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a04054d4a512c4ffeaeb5ab188defbfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth:
+    baseValue: 100
+    modifiers: 
+  damage:
+    baseValue: 20
+    modifiers: 
+  currentHealth: 0
+--- !u!114 &6099831737551429846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843185816406651933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77b765c9fa82490d9c96eb1e75df2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashDuration: 0.2
+  hitMat: {fileID: 2100000, guid: 37a3517ca6dd940d18e47357a5ecbb7f, type: 2}
+  hitFx: {fileID: 3378707609547958725, guid: 7fa0bdc677279443da6a625432d94fab, type: 3}
+  shakeMultiplier: 0.2
+  shakeHighDamage: {x: 0.5, y: 0.3, z: 0}
+  dustFx: {fileID: 0}
+--- !u!114 &1632827982893918750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2843185816406651933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ImpulseDefinition:
+    ImpulseChannel: 1
+    ImpulseShape: 2
+    CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ImpulseDuration: 0.2
+    ImpulseType: 0
+    DissipationRate: 0.25
+    RawSignal: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    RepeatMode: 0
+    Randomize: 1
+    TimeEnvelope:
+      AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AttackTime: 0
+      SustainTime: 0.2
+      DecayTime: 0.7
+      ScaleWithImpact: 1
+      HoldForever: 0
+    ImpactRadius: 100
+    DirectionMode: 0
+    DissipationMode: 2
+    DissipationDistance: 100
+    PropagationSpeed: 343
+  DefaultVelocity: {x: 0.4, y: 0.4, z: 0.4}
 --- !u!1 &4438736611343402488
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4261814303051141388}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: AttackCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +298,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 770764565191429109}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +333,7 @@ GameObject:
   - component: {fileID: 317255190148133625}
   - component: {fileID: 5433272183652403709}
   - component: {fileID: 3951575405261363498}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -257,7 +349,7 @@ Transform:
   m_GameObject: {fileID: 5877022871169014307}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.0000038146973, y: -0.24303007, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -410,7 +502,7 @@ GameObject:
   - component: {fileID: 1381858975631368638}
   - component: {fileID: 1317273809216814595}
   - component: {fileID: 2870141692170695548}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
