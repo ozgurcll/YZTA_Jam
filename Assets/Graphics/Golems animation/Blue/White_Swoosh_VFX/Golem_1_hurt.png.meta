@@ -46,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,20 +125,20 @@ TextureImporter:
       name: Golem_1_hurt_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 40
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ca5b56c6fca333450800000000000000
-      internalID: 6067257785549436332
+      spriteID: 668dabb1e0b2b4ca9a7718449777a517
+      internalID: 496423308
       vertices: []
       indices: 
       edges: []
@@ -147,20 +147,20 @@ TextureImporter:
       name: Golem_1_hurt_1
       rect:
         serializedVersion: 2
-        x: 114
+        x: 90
         y: 0
-        width: 39
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c3ec71cf0dedeca0800000000000000
-      internalID: -5985867677779041342
+      spriteID: 3935ce74d7f1c430cb072fb136f8ce10
+      internalID: 808087237
       vertices: []
       indices: 
       edges: []
@@ -169,20 +169,20 @@ TextureImporter:
       name: Golem_1_hurt_2
       rect:
         serializedVersion: 2
-        x: 205
+        x: 180
         y: 0
-        width: 39
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41aaed0149be4f9c0800000000000000
-      internalID: -3894228756597921260
+      spriteID: 59b3431b20fdc47dd8c1c05266da3200
+      internalID: 85501140
       vertices: []
       indices: 
       edges: []
@@ -191,20 +191,20 @@ TextureImporter:
       name: Golem_1_hurt_3
       rect:
         serializedVersion: 2
-        x: 295
+        x: 270
         y: 0
-        width: 40
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 160f65e9d6c511f30800000000000000
-      internalID: 4544515124871229537
+      spriteID: ea39f44bc847c4f75bf472473bf9bb7a
+      internalID: 1529790408
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 787a34e1e42f047ba929dd27e90095aa
     internalID: 0
     vertices: []
     indices: 
@@ -221,13 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Robot Pieces_0: 1854847231413705290
-      Robot Pieces_1: 8498952454435953730
-      Robot Pieces_2: -5897667241565666484
-      Robot Pieces_3: -7700923575975521992
-      Robot Pieces_4: -4422855285084578578
+      Golem_1_hurt_0: 496423308
+      Golem_1_hurt_1: 808087237
+      Golem_1_hurt_2: 85501140
+      Golem_1_hurt_3: 1529790408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
