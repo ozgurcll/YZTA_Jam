@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -41,20 +41,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-<<<<<<< HEAD
-=======
   - name: Background
-    uniqueID: 1027144283
-    locked: 0
-  - name: Inter background
-    uniqueID: 3441658411
+<<<<<<< HEAD
+    uniqueID: 2015126089
     locked: 0
   - name: Midground
-    uniqueID: 1545881141
+    uniqueID: 1512334091
     locked: 0
   - name: Foreground
-    uniqueID: 179840021
+    uniqueID: 2904663623
+=======
+    uniqueID: 3789545171
     locked: 0
->>>>>>> 61e8794415b5f7e2493855c48a2e1c650e1f6a17
+  - name: Midground
+    uniqueID: 1586307471
+    locked: 0
+  - name: Player
+    uniqueID: 1588587989
+>>>>>>> d4cdf4e0d40b2cca6fa531400ca3600142041e03
+    locked: 0
   m_RenderingLayers:
   - Default
