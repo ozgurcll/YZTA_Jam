@@ -63,6 +63,6 @@ public class Player : Entity
     public void KnifeThrow()
     {
         GameObject newKnife = Instantiate(knifePrefab, attackCheck.position, Quaternion.identity);
-        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir);
+        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir, stats);
     }
 }
