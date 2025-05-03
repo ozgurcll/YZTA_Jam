@@ -6,8 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Giris Ekrani.unity
+    guid: 409ae38de90d76a4da91a14623f13e22
+  - enabled: 1
     path: Assets/Scenes/OzgurScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Can.unity
+    guid: 8343fc1da89a5b044bf8bb26c8fe55b9
+  - enabled: 1
+    path: Assets/Scenes/Semiha.unity
+    guid: 32adcc225bc4d0840b177344c0f37160
+  - enabled: 1
+    path: Assets/Scenes/ipek.unity
+    guid: ebb6b3ff6434c6c4890200d0b89d1406
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
