@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton_01_Yellow_Hurt_0: 6446044657564510885
+      Skeleton_01_Yellow_Hurt_1: -1459965815020425431
+      Skeleton_01_Yellow_Hurt_2: -8086479892407274904
+      Skeleton_01_Yellow_Hurt_3: 3813758732090882593
+      Skeleton_01_Yellow_Hurt_4: -5371608991630268359
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

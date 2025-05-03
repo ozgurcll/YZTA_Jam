@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Skeleton_01_White_Idle_0: -7219542275010057529
+      Skeleton_01_White_Idle_1: 2330065017517651048
+      Skeleton_01_White_Idle_2: 6716198830860396226
+      Skeleton_01_White_Idle_3: 1320353031991912739
+      Skeleton_01_White_Idle_4: 7252630670804583357
+      Skeleton_01_White_Idle_5: 1991068714589111802
+      Skeleton_01_White_Idle_6: -2637402764292383216
+      Skeleton_01_White_Idle_7: 7371864610524597740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

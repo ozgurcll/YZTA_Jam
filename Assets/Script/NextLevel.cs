@@ -23,5 +23,4 @@ public class NextLevel : MonoBehaviour
     {
         SceneManager.LoadScene(scene_index);
     }
-
 }
