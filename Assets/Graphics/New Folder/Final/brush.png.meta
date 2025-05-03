@@ -151,7 +151,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: aba40d53eb4cecc45b6fa733105e6258
-      internalID: 1888448596
+      internalID: 4612949534538396097
       vertices: []
       indices: 
       edges: []
@@ -170,11 +170,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< HEAD
-      brush_1: 1888448596
-=======
       brush_0: 4552838390712430263
->>>>>>> ded79df09c5823029fba401fb0089f329c559dcd
+      brush_1: 4612949534538396097
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
