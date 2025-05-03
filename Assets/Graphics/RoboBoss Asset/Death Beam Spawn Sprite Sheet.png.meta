@@ -126,6 +126,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -384,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Death Beam Spawn Sprite Sheet_0: 1456365578138093308
+      Death Beam Spawn Sprite Sheet_1: 4728018250934386540
+      Death Beam Spawn Sprite Sheet_10: 5807280162155090974
+      Death Beam Spawn Sprite Sheet_2: 6414043402456335766
+      Death Beam Spawn Sprite Sheet_3: 1075416179577657392
+      Death Beam Spawn Sprite Sheet_4: 2915168527033459664
+      Death Beam Spawn Sprite Sheet_5: -7218318308242777522
+      Death Beam Spawn Sprite Sheet_6: 2690529582219022984
+      Death Beam Spawn Sprite Sheet_7: -1229121362865647504
+      Death Beam Spawn Sprite Sheet_8: 5400082698512625011
+      Death Beam Spawn Sprite Sheet_9: 4215781413245595499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

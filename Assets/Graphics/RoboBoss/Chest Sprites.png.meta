@@ -147,6 +147,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -559,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chest Sprites_0: -2846498594291632951
+      Chest Sprites_1: 3901539642545527090
+      Chest Sprites_10: 8800291709275269531
+      Chest Sprites_11: -4313090428074250986
+      Chest Sprites_12: 3092319821479039721
+      Chest Sprites_13: 451289097126029257
+      Chest Sprites_14: 5628654848252256551
+      Chest Sprites_15: 624751114823089777
+      Chest Sprites_16: 4954737383677834731
+      Chest Sprites_17: -1592525082575128281
+      Chest Sprites_2: -4436338429912700666
+      Chest Sprites_3: 3197535218107513919
+      Chest Sprites_4: 1608895284825764257
+      Chest Sprites_5: 7217671245237087520
+      Chest Sprites_6: 8080936295082328382
+      Chest Sprites_7: -1624705904482236125
+      Chest Sprites_8: -7441411897319626984
+      Chest Sprites_9: 3864598842343257206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
