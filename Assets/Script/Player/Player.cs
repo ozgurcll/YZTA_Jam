@@ -5,8 +5,6 @@ using System.Collections;
 public class Player : Entity
 {
     public PlayerFx fx { get; private set; }
-    [Header("Attack details")]
-    public Vector2 attackMovement;
 
     [Header("Move info")]
     public float moveSpeed = 12f;
@@ -65,6 +63,6 @@ public class Player : Entity
     public void KnifeThrow()
     {
         GameObject newKnife = Instantiate(knifePrefab, attackCheck.position, Quaternion.identity);
-        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir);
+        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir, stats);
     }
 }

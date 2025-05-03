@@ -9,10 +9,11 @@ public class Knife_Controller : MonoBehaviour
     private Rigidbody2D rb;
     [SerializeField] private bool canMove;
     private int facingDir = 1;
+    private int damage;
 
     private Animator anim;
 
-
+    private CharacterStats stats;
     private void Update()
     {
         if (canMove)
@@ -25,16 +26,27 @@ public class Knife_Controller : MonoBehaviour
         }
     }
 
-    public void SetupArrow(float _speed)
+    public void SetupArrow(float _speed, CharacterStats _stats)
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
         arrowSpeed = _speed;
+        stats = _stats;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer(targetLayerName))
+        {
+
+            collision.GetComponent<CharacterStats>()?.TakeDamage(damage);
+
+
+            stats.DoDamage(collision.GetComponent<CharacterStats>());
+
+            StuckInto(collision);
+        }
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
             StuckInto(collision);
     }
 
