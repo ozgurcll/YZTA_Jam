@@ -27,6 +27,7 @@ public class Enemy_Golem : Enemy
     public override void Die()
     {
         base.Die();
+        stateMachine.ChangeState(dieState);
     }
 
 }
