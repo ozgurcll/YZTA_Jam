@@ -9,6 +9,8 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        player.fx.PlayDustFX();
+
     }
 
     public override void Exit()
