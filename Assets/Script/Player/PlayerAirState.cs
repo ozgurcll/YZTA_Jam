@@ -28,5 +28,7 @@ public class PlayerAirState : PlayerState
         }
         if (xInput != 0)
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.linearVelocityY);
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            stateMachine.ChangeState(player.throwState);
     }
 }
