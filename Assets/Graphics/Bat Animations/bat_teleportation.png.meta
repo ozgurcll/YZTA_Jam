@@ -155,12 +155,12 @@ TextureImporter:
       name: bat_teleportation_0
       rect:
         serializedVersion: 2
-        x: 508
-        y: 15
-        width: 23
-        height: 80
+        x: 0
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,12 +177,12 @@ TextureImporter:
       name: bat_teleportation_1
       rect:
         serializedVersion: 2
-        x: 589
-        y: 15
-        width: 22
-        height: 90
+        x: 80
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -199,12 +199,12 @@ TextureImporter:
       name: bat_teleportation_2
       rect:
         serializedVersion: 2
-        x: 668
-        y: 15
-        width: 24
-        height: 91
+        x: 160
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -221,12 +221,12 @@ TextureImporter:
       name: bat_teleportation_3
       rect:
         serializedVersion: 2
-        x: 749
-        y: 26
-        width: 21
-        height: 80
+        x: 240
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -243,12 +243,12 @@ TextureImporter:
       name: bat_teleportation_4
       rect:
         serializedVersion: 2
-        x: 829
-        y: 41
-        width: 21
-        height: 64
+        x: 320
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: bat_teleportation_5
       rect:
         serializedVersion: 2
-        x: 910
-        y: 55
-        width: 20
-        height: 50
+        x: 400
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: bat_teleportation_6
       rect:
         serializedVersion: 2
-        x: 990
-        y: 75
-        width: 20
-        height: 31
+        x: 480
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: bat_teleportation_7
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 87
-        width: 20
-        height: 19
+        x: 560
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: bat_teleportation_8
       rect:
         serializedVersion: 2
-        x: 30
-        y: 15
-        width: 19
-        height: 42
+        x: 640
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,12 +353,12 @@ TextureImporter:
       name: bat_teleportation_9
       rect:
         serializedVersion: 2
-        x: 110
-        y: 15
-        width: 19
-        height: 44
+        x: 720
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,12 +375,12 @@ TextureImporter:
       name: bat_teleportation_10
       rect:
         serializedVersion: 2
-        x: 189
-        y: 15
-        width: 21
-        height: 48
+        x: 800
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,12 +397,12 @@ TextureImporter:
       name: bat_teleportation_11
       rect:
         serializedVersion: 2
-        x: 269
-        y: 15
-        width: 21
-        height: 54
+        x: 880
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,12 +419,12 @@ TextureImporter:
       name: bat_teleportation_12
       rect:
         serializedVersion: 2
-        x: 349
-        y: 15
-        width: 21
-        height: 60
+        x: 960
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: bat_teleportation_13
       rect:
         serializedVersion: 2
-        x: 428
-        y: 15
-        width: 23
-        height: 70
+        x: 1040
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,7 +463,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d53c9e2cb09e440a8abe659ea3affb79
     internalID: 0
     vertices: []
     indices: 
@@ -471,7 +471,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":15.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bat_teleportation_0: 8534171147107668182
       bat_teleportation_1: 2758939923838424942

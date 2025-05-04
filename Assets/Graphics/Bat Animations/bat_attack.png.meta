@@ -131,10 +131,10 @@ TextureImporter:
       name: bat_attack_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 15
-        width: 19
-        height: 40
+        x: 0
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,10 +153,10 @@ TextureImporter:
       name: bat_attack_1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 15
-        width: 32
-        height: 41
+        x: 80
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,10 +175,10 @@ TextureImporter:
       name: bat_attack_2
       rect:
         serializedVersion: 2
-        x: 191
-        y: 15
-        width: 35
-        height: 41
+        x: 160
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: bat_attack_3
       rect:
         serializedVersion: 2
-        x: 271
-        y: 15
-        width: 24
-        height: 41
+        x: 240
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +219,10 @@ TextureImporter:
       name: bat_attack_4
       rect:
         serializedVersion: 2
-        x: 351
-        y: 15
-        width: 20
-        height: 41
+        x: 320
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: bat_attack_5
       rect:
         serializedVersion: 2
-        x: 430
-        y: 15
-        width: 19
-        height: 42
+        x: 400
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0320d4034af6b40d39bc22eaa5bfb1a1
     internalID: 0
     vertices: []
     indices: 
@@ -271,7 +271,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bat_attack_0: -5068764080106912578
       bat_attack_1: -610251300123608255
