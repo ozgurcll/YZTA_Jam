@@ -8,6 +8,8 @@ public class Enemy_Golem : Enemy
     public GolemAttackState attackState { get; private set; }
     public GolemDieState dieState { get; private set; }
 
+    public GameObject dialogPanel;
+
     protected override void Awake()
     {
         base.Awake();

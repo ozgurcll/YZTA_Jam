@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class GolemDieState : EnemyState
@@ -11,16 +12,19 @@ public class GolemDieState : EnemyState
     public override void Enter()
     {
         base.Enter();
-
-        enemy.cd.enabled = false;
-        stateTimer = .15f;
+        enemy.StartCoroutine(DieCoroutine());
+        enemy.dialogPanel.SetActive(true);
     }
 
     public override void Update()
     {
         base.Update();
-
-        if (stateTimer > 0)
-            rb.linearVelocity = new Vector2(0, 10);
+    }
+    private IEnumerator DieCoroutine()
+    {
+        yield return new WaitForSeconds(2f);
+        rb.linearVelocity = new Vector2(0, 10);
+        enemy.dialogPanel.SetActive(false);
+        enemy.cd.enabled = false;
     }
 }

@@ -297,7 +297,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 12
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -362,7 +362,7 @@ MonoBehaviour:
   attackCheck: {fileID: 5234158988718161229}
   attackCheckRadius: 1.2
   groundCheck: {fileID: 1378503818166629910}
-  groundCheckDistance: 1
+  groundCheckDistance: 0.2
   wallCheck: {fileID: 7576826000426340262}
   wallCheckDistance: 0.8
   whatIsGround:
@@ -376,7 +376,7 @@ MonoBehaviour:
     m_Bits: 8192
   moveSpeed: 4
   idleTime: 1
-  battleTime: 0
+  battleTime: 1
   agroDistance: 2
   attackDistance: 2
   attackCooldown: 0
@@ -662,8 +662,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2035248623
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 815424164945274260, guid: efb3c492237710346a7d90275234645f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
