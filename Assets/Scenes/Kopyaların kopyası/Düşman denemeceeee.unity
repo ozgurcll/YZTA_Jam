@@ -4007,8 +4007,8 @@ MonoBehaviour:
     edilmesi.\nNot: Bu gezegende b\u0131\xE7ak f\u0131rlatman hi\xE7 bir i\u015Fe
     yaramaz"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4419,8 +4419,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Hey arad\u0131\u011F\u0131n \u015Fey yandaki panoda olabilir."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4650,8 +4650,8 @@ MonoBehaviour:
     larvas\u0131.\nG\xF6rev: \xD6ld\xFCr\xFClmesi\nUYARI: Bu gezegende yak\u0131n
     sald\u0131r\u0131lar i\u015Fe yaramaz."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4675,7 +4675,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.3
+  m_fontSize: 32.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6910,8 +6910,8 @@ MonoBehaviour:
     Hi\xE7bir \u015Fey. Ama onurun varsa, yeter.\n\u2014 Eski ke\u015Fif ekibi, L-19
     b\xF6lgesi"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14635,67 +14635,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1001 &1870303658
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.499868
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.9221227
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3505659447776737732, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4802185552594266099, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: popUpTextPrefab
-      value: 
-      objectReference: {fileID: 7131901351426367511, guid: 06ffdbb1169e94fb7841a2316e0e6e03, type: 3}
-    - target: {fileID: 7883685537214962034, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
-      propertyPath: m_Name
-      value: Enemy_Skeleton
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d34b53c94ced0451580d5a46b416480a, type: 3}
 --- !u!1 &1933619026
 GameObject:
   m_ObjectHideFlags: 0
@@ -14896,14 +14835,6 @@ PrefabInstance:
       propertyPath: BoundingShape2D
       value: 
       objectReference: {fileID: 63587132}
-    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.786894
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.13586
-      objectReference: {fileID: 0}
     - target: {fileID: 5342071202802323927, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_Name
       value: Camera&Player
@@ -14977,4 +14908,3 @@ SceneRoots:
   - {fileID: 69302929}
   - {fileID: 1103116207}
   - {fileID: 897889117}
-  - {fileID: 1870303658}
