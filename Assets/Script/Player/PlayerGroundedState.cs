@@ -9,6 +9,7 @@ public class PlayerGroundedState : PlayerState
     public override void Enter()
     {
         base.Enter();
+        stateTimer = .4f;
     }
 
     public override void Update()
@@ -31,6 +32,14 @@ public class PlayerGroundedState : PlayerState
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             stateMachine.ChangeState(player.throwState);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (stateTimer < 0)
+                player.CheckForDashInput();
+            else
+                player.fx.CreatePopUpText("Sakin ol kral");
         }
     }
 }
