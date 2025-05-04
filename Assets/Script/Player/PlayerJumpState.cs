@@ -21,8 +21,12 @@ public class PlayerJumpState : PlayerState
     public override void Update()
     {
         base.Update();
-
+        if (xInput != 0)
+            player.SetVelocity(player.moveSpeed * .8f * xInput, rb.linearVelocityY);
         if (rb.linearVelocityY < 0)
             stateMachine.ChangeState(player.airState);
+        if(Input.GetKeyDown(KeyCode.Mouse1))
+            stateMachine.ChangeState(player.throwState);
+
     }
 }

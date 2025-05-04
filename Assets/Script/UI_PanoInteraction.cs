@@ -6,11 +6,13 @@ public class UI_PanoInteraction : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        panoInteractionPanel.SetActive(true);
+        if (collision.CompareTag("Player"))
+            panoInteractionPanel.SetActive(true);
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        panoInteractionPanel.SetActive(false);
+        if (collision.CompareTag("Player"))
+            panoInteractionPanel.SetActive(false);
     }
 }
