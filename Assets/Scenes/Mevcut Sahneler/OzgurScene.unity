@@ -14831,14 +14831,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1541362645745951380, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.012
-      objectReference: {fileID: 0}
-    - target: {fileID: 1541362645745951380, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.47
-      objectReference: {fileID: 0}
     - target: {fileID: 4347034628324233809, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: BoundingShape2D
       value: 
@@ -14846,14 +14838,6 @@ PrefabInstance:
     - target: {fileID: 4450125196544863456, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 12.786894
-      objectReference: {fileID: 0}
-    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.13586
       objectReference: {fileID: 0}
     - target: {fileID: 5342071202802323927, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_Name

@@ -16,7 +16,6 @@ public class PlayerAnimationEvent : MonoBehaviour
         {
             if (hit.GetComponent<Enemy>() != null)
             {
-                Debug.Log("Hit Enemy");
                 EnemyStats _target = hit.GetComponent<EnemyStats>();
 
                 if (_target != null)
