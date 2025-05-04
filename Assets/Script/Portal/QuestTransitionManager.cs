@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestTransitionManager : MonoBehaviour
 {
     public GameObject portalEffect;
-    public Animator playerAnimator;
+
     public SceneFader sceneFader;
 
     public float portalDelay = 1f;
@@ -17,28 +18,21 @@ public class QuestTransitionManager : MonoBehaviour
 
     IEnumerator TransitionSequence(int sceneIndex)
     {
-        // 1. Portal karakterin üstüne yerleþtirilir
-        portalEffect.transform.position = playerAnimator.transform.position + new Vector3(0f, 4f, 0f);
+        portalEffect.transform.position = PlayerManager.instance.player.transform.position + new Vector3(0f, 4f, 0f);
         portalEffect.SetActive(true);
-
-        // 2. Portal animasyonu varsa tetikle
-        Animator portalAnim = portalEffect.GetComponent<Animator>();
-        if (portalAnim != null)
-            portalAnim.SetTrigger("Open");
 
         yield return new WaitForSeconds(portalDelay);
 
-        // 3. Karakter dissolve animasyonu
-        playerAnimator.SetTrigger("Teleport");
+        PlayerManager.instance.player.stateMachine.ChangeState(PlayerManager.instance.player.tpState);
 
         yield return new WaitForSeconds(dissolveDelay);
 
-        // 4. Fade ve sahne geçiþi
-        sceneFader.FadeToScene(sceneIndex.ToString()); // SceneFader string alýyor
+        // 4. Fade ve sahne geï¿½iï¿½i
+        sceneFader.FadeToScene(sceneIndex.ToString()); // SceneFader string alï¿½yor
     }
 
     void Start()
     {
-        portalEffect.SetActive(false); // Baþta görünmesin
+        portalEffect.SetActive(false); // Baï¿½ta gï¿½rï¿½nmesin
     }
 }

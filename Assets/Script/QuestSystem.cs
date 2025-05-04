@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class QuestSystem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
@@ -21,5 +22,6 @@ public class QuestSystem : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     public void OnPointerClick(PointerEventData eventData)
     {
         transitionManager.StartTransition(sceneIndex);
+        GameObject.Find("PanoPanel").SetActive(false);
     }
 }

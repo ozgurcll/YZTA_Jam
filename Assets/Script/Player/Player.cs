@@ -28,6 +28,7 @@ public class Player : Entity
     public PlayerAttackState attackState { get; private set; }
     public PlayerThrowState throwState { get; private set; }
     public PlayerDashState dashState { get; private set; }
+    public PlayerTpState tpState { get; private set; }
 
     protected override void Awake()
     {
@@ -40,6 +41,7 @@ public class Player : Entity
         attackState = new PlayerAttackState(this, stateMachine, "Attack");
         throwState = new PlayerThrowState(this, stateMachine, "Throw");
         dashState = new PlayerDashState(this, stateMachine, "Move");
+        tpState = new PlayerTpState(this, stateMachine, "Teleport");
     }
 
     protected override void Start()
