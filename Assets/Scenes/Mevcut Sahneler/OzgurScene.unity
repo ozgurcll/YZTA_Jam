@@ -7078,6 +7078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 0
+  transitionManager: {fileID: 0}
 --- !u!95 &1780292945
 Animator:
   serializedVersion: 7
@@ -14613,6 +14614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 0
+  transitionManager: {fileID: 0}
 --- !u!95 &1856259572
 Animator:
   serializedVersion: 7
@@ -14726,6 +14728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneIndex: 0
+  transitionManager: {fileID: 0}
 --- !u!95 &1933619031
 Animator:
   serializedVersion: 7
@@ -14839,9 +14842,25 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.803667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.26414013
+      objectReference: {fileID: 0}
     - target: {fileID: 5342071202802323927, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_Name
       value: Camera&Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618100983039156182, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.073111
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618100983039156182, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4211102
       objectReference: {fileID: 0}
     - target: {fileID: 7550250481157319314, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14882,6 +14901,14 @@ PrefabInstance:
     - target: {fileID: 7550250481157319314, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951237947516881563, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -25.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8951237947516881563, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
