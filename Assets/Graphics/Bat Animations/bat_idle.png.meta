@@ -125,10 +125,10 @@ TextureImporter:
       name: bat_idle_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 15
-        width: 19
-        height: 42
+        x: 0
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: bat_idle_1
       rect:
         serializedVersion: 2
-        x: 110
-        y: 15
-        width: 19
-        height: 42
+        x: 80
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: bat_idle_2
       rect:
         serializedVersion: 2
-        x: 190
-        y: 15
-        width: 19
-        height: 43
+        x: 160
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: bat_idle_3
       rect:
         serializedVersion: 2
-        x: 270
-        y: 15
-        width: 19
-        height: 42
+        x: 240
+        y: 0
+        width: 80
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 460e76aa0477d4d808c3dea2a0cd1968
     internalID: 0
     vertices: []
     indices: 
@@ -221,7 +221,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       bat_idle_0: 3121528857211528895
       bat_idle_1: 2868076889194776294
