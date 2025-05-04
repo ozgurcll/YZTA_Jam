@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9ff84e7d1c67f487597ca8136bd58add
+guid: bba7ff21de217486bb2ad03ba9544b01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5660478284319102643
-    second: EmptyBook_0
+      213: -2786206983333225766
+    second: semiha_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EmptyBook_0
+      name: semiha_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 1475
-        height: 835
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d49e85cadf0f171b0800000000000000
-      internalID: -5660478284319102643
+      spriteID: adad5b7b2876559d0800000000000000
+      internalID: -2786206983333225766
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      EmptyBook_0: -5660478284319102643
+      semiha_0: -2786206983333225766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
