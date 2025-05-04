@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy_MartialHero : Enemy
 {
@@ -8,6 +9,9 @@ public class Enemy_MartialHero : Enemy
     public float jumpCooldown;
     public float safeDistance;
     [HideInInspector] public float lastTimeJumped;
+
+    public GameObject bossDialog;
+    public GameObject portalEffect;
 
     [Header("Additional collision check")]
     [SerializeField] private Transform groundBehindCheck;
@@ -59,4 +63,24 @@ public class Enemy_MartialHero : Enemy
         Gizmos.DrawWireCube(groundBehindCheck.position, groundBehindCheckSize);
     }
 
+    public void SpawnPortal()
+    {
+        GameObject portal = Instantiate(portalEffect, transform.position, Quaternion.identity);
+        portal.transform.rotation = Quaternion.Euler(80, 0, 0);
+        portal.transform.position = PlayerManager.instance.player.transform.position + new Vector3(0f, 4f, 0f);
+        StartCoroutine(DissolveCoroutine());
+    }
+
+    private IEnumerator DissolveCoroutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        PlayerManager.instance.player.stateMachine.ChangeState(PlayerManager.instance.player.tpState);
+        StartCoroutine(nextSceneCoroutine());
+    }
+
+    private IEnumerator nextSceneCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(1);
+    }
 }

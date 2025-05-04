@@ -13,8 +13,8 @@ public class MartialDieState : EnemyState
     public override void Enter()
     {
         base.Enter();
-
-        stateTimer = .4f;
+        stateTimer = .7f;
+        enemy.StartCoroutine(DieCoroutine());
     }
 
     public override void Exit()
@@ -25,5 +25,17 @@ public class MartialDieState : EnemyState
     public override void Update()
     {
         base.Update();
+        if (stateTimer <= 0)
+        {
+            enemy.bossDialog.SetActive(true);
+        }
+
+    }
+
+    private IEnumerator DieCoroutine()
+    {
+        yield return new WaitForSeconds(2f);
+        enemy.SpawnPortal();
+        enemy.bossDialog.SetActive(false);
     }
 }
