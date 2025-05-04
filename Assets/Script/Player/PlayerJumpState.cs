@@ -28,6 +28,8 @@ public class PlayerJumpState : PlayerState
             stateMachine.ChangeState(player.airState);
         if (Input.GetKeyDown(KeyCode.Mouse1))
             stateMachine.ChangeState(player.throwState);
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            stateMachine.ChangeState(player.attackState);
 
         if (Input.GetKeyDown(KeyCode.LeftShift) )
             player.CheckForDashInput();
