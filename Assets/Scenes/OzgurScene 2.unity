@@ -14908,8 +14908,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505b3cbb9c0d14c83911faad30510ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
-  transitionManager: {fileID: 0}
+  sceneIndex: 4
+  transitionManager: {fileID: 521570702}
 --- !u!95 &1856259572
 Animator:
   serializedVersion: 7
@@ -15022,8 +15022,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 505b3cbb9c0d14c83911faad30510ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneIndex: 0
-  transitionManager: {fileID: 0}
+  sceneIndex: 3
+  transitionManager: {fileID: 521570702}
 --- !u!95 &1933619031
 Animator:
   serializedVersion: 7
