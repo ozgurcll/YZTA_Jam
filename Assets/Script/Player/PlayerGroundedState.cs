@@ -9,7 +9,7 @@ public class PlayerGroundedState : PlayerState
     public override void Enter()
     {
         base.Enter();
-        stateTimer = .4f;
+        stateTimer = .2f;
     }
 
     public override void Update()

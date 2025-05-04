@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 1140135622746767528}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.79, y: -0.11, z: 0}
+  m_LocalPosition: {x: 1.01, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -134,9 +134,9 @@ MonoBehaviour:
     m_Bits: 8192
   moveSpeed: 3
   idleTime: 2
-  battleTime: 7
-  agroDistance: 1
-  attackDistance: 1
+  battleTime: 2
+  agroDistance: 1.4
+  attackDistance: 1.4
   attackCooldown: 0
   minAttackCooldown: 1
   maxAttackCooldown: 2

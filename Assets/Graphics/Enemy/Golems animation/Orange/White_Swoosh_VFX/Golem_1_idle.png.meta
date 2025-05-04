@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -118,9 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-<<<<<<< HEAD:Assets/Graphics/RoboBoss Asset/Right Leg Sprites.png.meta
-=======
-    buildTarget: Android
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -133,7 +131,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
->>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Orange/White_Swoosh_VFX/Golem_1_idle.png.meta
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -153,20 +150,20 @@ TextureImporter:
       name: Golem_1_idle_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 0
         y: 0
-        width: 40
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a50fdbc45a288230800000000000000
-      internalID: 3641206842415056288
+      spriteID: 3f2c21faa9b854ce0b81d2f9b7a93eb0
+      internalID: 1649770238
       vertices: []
       indices: 
       edges: []
@@ -175,20 +172,20 @@ TextureImporter:
       name: Golem_1_idle_1
       rect:
         serializedVersion: 2
-        x: 115
+        x: 90
         y: 0
-        width: 40
-        height: 39
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ac5c36c4f0bdc5b0800000000000000
-      internalID: -5346422617274557279
+      spriteID: d33c10934bd884dfa81d8724aa504a9f
+      internalID: -1406699955
       vertices: []
       indices: 
       edges: []
@@ -197,20 +194,20 @@ TextureImporter:
       name: Golem_1_idle_2
       rect:
         serializedVersion: 2
-        x: 205
+        x: 180
         y: 0
-        width: 40
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 157011e3fe23bc7c0800000000000000
-      internalID: -4050087436769753263
+      spriteID: 9711a3b4fbef64df380f0d33bafaa6b6
+      internalID: -257319498
       vertices: []
       indices: 
       edges: []
@@ -219,20 +216,20 @@ TextureImporter:
       name: Golem_1_idle_3
       rect:
         serializedVersion: 2
-        x: 295
+        x: 270
         y: 0
-        width: 40
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 291d0654235480ca0800000000000000
-      internalID: -6050510017157607022
+      spriteID: 12f1667e087cd438cbf878b45d9d2f95
+      internalID: 762822692
       vertices: []
       indices: 
       edges: []
@@ -241,20 +238,20 @@ TextureImporter:
       name: Golem_1_idle_4
       rect:
         serializedVersion: 2
-        x: 385
+        x: 360
         y: 0
-        width: 41
-        height: 37
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2c1c56252a9201fc0800000000000000
-      internalID: -3526272731087257150
+      spriteID: 96e29ee2475fa4709b00d8436411b8bc
+      internalID: 621922370
       vertices: []
       indices: 
       edges: []
@@ -263,20 +260,20 @@ TextureImporter:
       name: Golem_1_idle_5
       rect:
         serializedVersion: 2
-        x: 475
+        x: 450
         y: 0
-        width: 41
-        height: 37
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1db3f0050fd278ef0800000000000000
-      internalID: -106065556061340719
+      spriteID: 0f9adebb12d1b4431b128fe0daa9e2e1
+      internalID: -2074396079
       vertices: []
       indices: 
       edges: []
@@ -285,20 +282,20 @@ TextureImporter:
       name: Golem_1_idle_6
       rect:
         serializedVersion: 2
-        x: 565
+        x: 540
         y: 0
-        width: 40
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 52cbde6a06b05b060800000000000000
-      internalID: 6968488508171074597
+      spriteID: 26d11df2b2efe4e91993a26ee3ce5f36
+      internalID: -979104734
       vertices: []
       indices: 
       edges: []
@@ -307,20 +304,20 @@ TextureImporter:
       name: Golem_1_idle_7
       rect:
         serializedVersion: 2
-        x: 655
+        x: 630
         y: 0
-        width: 40
-        height: 38
+        width: 90
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd1d0f6c2a48f0c60800000000000000
-      internalID: 7786588115404116445
+      spriteID: debe99045a0ca4069a53febba57fc998
+      internalID: -1547850421
       vertices: []
       indices: 
       edges: []
@@ -329,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8cdc8ee457da04274b1283163f0c41c0
     internalID: 0
     vertices: []
     indices: 
@@ -337,28 +334,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":90.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-<<<<<<< HEAD:Assets/Graphics/RoboBoss Asset/Right Leg Sprites.png.meta
-      Right Leg Sprites_0: -1730766150553438200
-      Right Leg Sprites_1: -9215862816984089777
-      Right Leg Sprites_2: 3144579475060271554
-      Right Leg Sprites_3: 236517763228215998
-      Right Leg Sprites_4: 7203038714047268231
-      Right Leg Sprites_5: -8699481619391351648
-      Right Leg Sprites_6: 8422255158617721952
-      Right Leg Sprites_7: 3097724663349388790
-      Right Leg Sprites_8: 3969161043451427412
-=======
-      Golem_1_idle_0: 3641206842415056288
-      Golem_1_idle_1: -5346422617274557279
-      Golem_1_idle_2: -4050087436769753263
-      Golem_1_idle_3: -6050510017157607022
-      Golem_1_idle_4: -3526272731087257150
-      Golem_1_idle_5: -106065556061340719
-      Golem_1_idle_6: 6968488508171074597
-      Golem_1_idle_7: 7786588115404116445
->>>>>>> 1967dd7cf247f4f6fa0e19ec2b39b8c1b226e144:Assets/Graphics/Golems animation/Orange/White_Swoosh_VFX/Golem_1_idle.png.meta
+      Golem_1_idle_0: 1649770238
+      Golem_1_idle_1: -1406699955
+      Golem_1_idle_2: -257319498
+      Golem_1_idle_3: 762822692
+      Golem_1_idle_4: 621922370
+      Golem_1_idle_5: -2074396079
+      Golem_1_idle_6: -979104734
+      Golem_1_idle_7: -1547850421
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
