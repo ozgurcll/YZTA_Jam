@@ -1,11 +1,12 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
+
 public class QuestSystem : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
     private Animator anim => GetComponent<Animator>();
 
     [SerializeField] private int sceneIndex;
+    [SerializeField] private QuestTransitionManager transitionManager;
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -19,6 +20,6 @@ public class QuestSystem : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        SceneManager.LoadScene(sceneIndex);
+        transitionManager.StartTransition(sceneIndex);
     }
 }
