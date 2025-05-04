@@ -6,10 +6,15 @@ public class Player : Entity
 {
     public PlayerFx fx { get; private set; }
 
-    [Header("Move info")]
-    public float moveSpeed = 12f;
+    [Header("Move Info")]
+    public float moveSpeed;
     public float jumpForce;
+    public int jumpCount = 1;
 
+    [Header("Dash Info")]
+    public float dashSpeed;
+    public float dashDuration;
+    public float dashDir { get; private set; }
     public bool isBusy { get; private set; }
 
     [SerializeField] private GameObject knifePrefab;
@@ -22,6 +27,7 @@ public class Player : Entity
     public PlayerAirState airState { get; private set; }
     public PlayerAttackState attackState { get; private set; }
     public PlayerThrowState throwState { get; private set; }
+    public PlayerDashState dashState { get; private set; }
 
     protected override void Awake()
     {
@@ -33,6 +39,7 @@ public class Player : Entity
         airState = new PlayerAirState(this, stateMachine, "Jump");
         attackState = new PlayerAttackState(this, stateMachine, "Attack");
         throwState = new PlayerThrowState(this, stateMachine, "Throw");
+        dashState = new PlayerDashState(this, stateMachine, "Move");
     }
 
     protected override void Start()
@@ -56,6 +63,20 @@ public class Player : Entity
 
         yield return new WaitForSeconds(_seconds);
         isBusy = false;
+    }
+
+    public void CheckForDashInput()
+    {
+        if (IsWallDetected())
+            return;
+
+        dashDir = Input.GetAxisRaw("Horizontal");
+
+        if (dashDir == 0)
+            dashDir = -facingDir;
+
+
+        stateMachine.ChangeState(dashState);
     }
 
     public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
