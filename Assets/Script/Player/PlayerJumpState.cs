@@ -10,7 +10,7 @@ public class PlayerJumpState : PlayerState
     {
         base.Enter();
         player.SetVelocity(rb.linearVelocityX, player.jumpForce);
-
+        player.fx.PlayDustFX();
     }
 
     public override void Exit()

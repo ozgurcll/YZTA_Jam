@@ -9,13 +9,6 @@ public class Enemy : Entity
 {
     [SerializeField] protected LayerMask whatIsPlayer;
 
-
-    [Header("Stunned info")]
-    public float stunDuration = 1;
-    public Vector2 stunDirection = new Vector2(10, 12);
-    protected bool canBeStunned;
-    [SerializeField] protected GameObject counterImage;
-
     [Header("Move info")]
     public float moveSpeed = 1.5f;
     public float idleTime = 2;
@@ -32,7 +25,6 @@ public class Enemy : Entity
 
     public EnemyStateMachine stateMachine { get; private set; }
     public EntityFx fx { get; private set; }
-    public Player player;
     public string lastAnimBoolName { get; private set; }
     protected override void Awake()
     {
@@ -96,31 +88,6 @@ public class Enemy : Entity
         yield return new WaitForSeconds(_seconds);
 
         FreezeTime(false);
-    }
-
-    #region Counter Attack Window
-    public virtual void OpenCounterAttackWindow()
-    {
-        canBeStunned = true;
-        counterImage.SetActive(true);
-    }
-
-    public virtual void CloseCounterAttackWindow()
-    {
-        canBeStunned = false;
-        counterImage.SetActive(false);
-    }
-    #endregion
-
-    public virtual bool CanBeStunned()
-    {
-        if (canBeStunned)
-        {
-            CloseCounterAttackWindow();
-            return true;
-        }
-
-        return false;
     }
 
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();

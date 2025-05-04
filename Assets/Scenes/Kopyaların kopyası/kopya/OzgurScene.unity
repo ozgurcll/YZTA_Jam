@@ -15053,6 +15053,14 @@ PrefabInstance:
       propertyPath: BoundingShape2D
       value: 
       objectReference: {fileID: 63587132}
+    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.786894
+      objectReference: {fileID: 0}
+    - target: {fileID: 4651631076365781741, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.13586
+      objectReference: {fileID: 0}
     - target: {fileID: 5342071202802323927, guid: 5d451aa0f0cda4400b6f644f474ffbf6, type: 3}
       propertyPath: m_Name
       value: Camera&Player
@@ -15279,9 +15287,6 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 8192
-  stunDuration: 1
-  stunDirection: {x: 10, y: 12}
-  counterImage: {fileID: 0}
   moveSpeed: 3
   idleTime: 2
   battleTime: 7
@@ -15291,7 +15296,6 @@ MonoBehaviour:
   minAttackCooldown: 1
   maxAttackCooldown: 2
   lastTimeAttacked: 0
-  player: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
