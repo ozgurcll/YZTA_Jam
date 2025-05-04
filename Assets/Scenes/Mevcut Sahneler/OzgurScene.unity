@@ -563,6 +563,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265554461}
   m_CullTransparentMesh: 1
+--- !u!1 &326538539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 326538540}
+  m_Layer: 11
+  m_Name: BehindCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &326538540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326538539}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.64, y: -2.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5347701295127137205}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &423359674
 GameObject:
   m_ObjectHideFlags: 0
@@ -14972,7 +15003,7 @@ Animator:
   m_GameObject: {fileID: 5816584979904319146}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: fa9e58fef3f86d640a0a92c921d8ac6b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 89a7ed622021d4e59a55c0e8c68c712b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -15061,7 +15092,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5347701295127137205}
-  - component: {fileID: 4468649459718191662}
+  - component: {fileID: 7400739641871316124}
   - component: {fileID: 7400739641871316123}
   - component: {fileID: 1612368225155039126}
   - component: {fileID: 733365744340983125}
@@ -15220,45 +15251,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.02}
   m_SizeDelta: {x: 809, y: 455}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4468649459718191662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3003111880560322373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 428583978c08f4ede8cb05a049f67303, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  knockbackPower: {x: 1, y: 1}
-  knockbackOffset: {x: 0.5, y: 2}
-  knockbackDuration: 0.07
-  attackCheck: {fileID: 4717076226883251744}
-  attackCheckRadius: 1
-  groundCheck: {fileID: 5123246359181572707}
-  groundCheckDistance: 0.2
-  wallCheck: {fileID: 3048994353699558555}
-  wallCheckDistance: 0.8
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 64
-  whatIsWall:
-    serializedVersion: 2
-    m_Bits: 64
-  whatIsPlayer:
-    serializedVersion: 2
-    m_Bits: 8192
-  moveSpeed: 3
-  idleTime: 2
-  battleTime: 2
-  agroDistance: 1.4
-  attackDistance: 1.4
-  attackCooldown: 0
-  minAttackCooldown: 1
-  maxAttackCooldown: 2
-  lastTimeAttacked: 0
 --- !u!4 &4545474925299243050
 Transform:
   m_ObjectHideFlags: 0
@@ -15365,6 +15357,7 @@ Transform:
   - {fileID: 5123246359181572707}
   - {fileID: 3048994353699558555}
   - {fileID: 4225390200559901670}
+  - {fileID: 326538540}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5816584979904319146
@@ -15600,6 +15593,51 @@ MonoBehaviour:
     baseValue: 13
     modifiers: 
   currentHealth: 0
+--- !u!114 &7400739641871316124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3003111880560322373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9cb6309287194d6c8cca46b71fe3ce6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackPower: {x: 7, y: 12}
+  knockbackOffset: {x: 0.5, y: 2}
+  knockbackDuration: 0.07
+  attackCheck: {fileID: 4717076226883251744}
+  attackCheckRadius: 1.2
+  groundCheck: {fileID: 5123246359181572707}
+  groundCheckDistance: 1
+  wallCheck: {fileID: 3048994353699558555}
+  wallCheckDistance: 0.8
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsWall:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 8192
+  moveSpeed: 3
+  idleTime: 2
+  battleTime: 2
+  agroDistance: 2
+  attackDistance: 2
+  attackCooldown: 0
+  minAttackCooldown: 1
+  maxAttackCooldown: 2
+  lastTimeAttacked: 0
+  jumpVelocity: {x: 15, y: 19}
+  jumpCooldown: 5
+  safeDistance: 2.5
+  lastTimeJumped: 0
+  groundBehindCheck: {fileID: 326538540}
+  groundBehindCheckSize: {x: 2, y: 2}
 --- !u!114 &7486312819118598090
 MonoBehaviour:
   m_ObjectHideFlags: 0
