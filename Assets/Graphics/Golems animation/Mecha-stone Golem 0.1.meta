@@ -1,5 +1,13 @@
 fileFormatVersion: 2
-guid: d7d376465e2f67f45a5d056f35c24d05
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Graphics/Golems animation/Mecha-stone Golem 0.1.meta
+guid: ba2cd70f49149024ab983d04724e27fe
+========
+guid: 5d50b73fb40ce4a3b8aeab2a3ac78bcb
+>>>>>>>> ec3857e701369384cd77ac599296cfd935b3055a:Assets/Graphics/Golems animation/Mecha-stone Golem 0.1/ASE files.meta
+=======
+guid: b8ae48d2da6b544ff8741624827e03e2
+>>>>>>> ec3857e701369384cd77ac599296cfd935b3055a
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

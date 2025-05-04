@@ -6,6 +6,8 @@ public class EntityFx : MonoBehaviour
 {
     protected Player player;
     protected SpriteRenderer sr;
+    [Header("Pop Up Text")]
+    [SerializeField] private GameObject popUpTextPrefab;
 
     [Header("Flash FX")]
     [SerializeField] private float flashDuration;
@@ -23,7 +25,17 @@ public class EntityFx : MonoBehaviour
         originalMat = sr.material;
     }
 
+    public void CreatePopUpText(string _text)
+    {
+        float randomX = Random.Range(-1, 1);
+        float randomY = Random.Range(1.5f, 3);
 
+        Vector3 positionOffset = new Vector3(randomX, randomY, 0);
+
+        GameObject newText = Instantiate(popUpTextPrefab, transform.position + positionOffset, Quaternion.identity);
+
+        newText.GetComponent<TextMeshPro>().text = _text;
+    }
 
     public void MakeTransprent(bool _transprent)
     {
