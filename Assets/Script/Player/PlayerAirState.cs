@@ -34,5 +34,9 @@ public class PlayerAirState : PlayerState
             stateMachine.ChangeState(player.throwState);
         if(Input.GetKeyDown(KeyCode.Mouse0))
             stateMachine.ChangeState(player.attackState);
+        if (player.IsWallDetected())
+        {
+            player.SetVelocity(rb.linearVelocity.x, rb.linearVelocityY - 0.3f);
+        }
     }
 }
