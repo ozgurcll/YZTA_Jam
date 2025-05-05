@@ -29,6 +29,7 @@ public class Player : Entity
     public PlayerThrowState throwState { get; private set; }
     public PlayerDashState dashState { get; private set; }
     public PlayerTpState tpState { get; private set; }
+    public PlayerDieState dieState { get; private set; }
 
     protected override void Awake()
     {
@@ -42,6 +43,7 @@ public class Player : Entity
         throwState = new PlayerThrowState(this, stateMachine, "Throw");
         dashState = new PlayerDashState(this, stateMachine, "Move");
         tpState = new PlayerTpState(this, stateMachine, "Teleport");
+        dieState = new PlayerDieState(this, stateMachine, "Teleport");
     }
 
     protected override void Start()
@@ -57,6 +59,12 @@ public class Player : Entity
         base.Update();
 
         stateMachine.currentState.Update();
+    }
+
+    public override void Die()
+    {
+        base.Die();
+        stateMachine.ChangeState(dieState);
     }
 
     public IEnumerator BusyFor(float _seconds)
