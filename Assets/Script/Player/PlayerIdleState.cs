@@ -9,6 +9,8 @@ public class PlayerIdleState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+        player.jumpCount = 1;
+        player.jumpForce = 12;
     }
 
     public override void Exit()
@@ -20,7 +22,7 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
         player.SetVelocity(0, player.rb.linearVelocityY);
-        
+
         if (xInput == player.facingDir && player.IsWallDetected())
             return;
 

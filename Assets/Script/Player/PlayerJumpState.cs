@@ -33,11 +33,5 @@ public class PlayerJumpState : PlayerState
 
         if (Input.GetKeyDown(KeyCode.LeftShift) )
             player.CheckForDashInput();
-        if (player.IsWallDetected())
-        {
-            player.SetVelocity(rb.linearVelocity.x, rb.linearVelocityY - 0.3f);
-        }
-
-
     }
 }

@@ -22,7 +22,7 @@ public class Laser_Controller : MonoBehaviour
         }
     }
 
-    public void SetupFireBall(CharacterStats _stats, int _damage)
+    public void SetupLaser(CharacterStats _stats, int _damage)
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();

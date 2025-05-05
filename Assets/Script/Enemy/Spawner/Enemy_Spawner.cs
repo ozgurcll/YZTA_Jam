@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy_Spawner : Enemy
 {
@@ -16,6 +17,8 @@ public class Enemy_Spawner : Enemy
     [SerializeField] private GameObject[] spawnList;
     [SerializeField] private Transform spawnPos;
 
+    public GameObject portalEffect;
+
 
     public SpawnerIdleState idleState { get; private set; }
     public SpawnerBattleState battleState { get; private set; }
@@ -30,7 +33,7 @@ public class Enemy_Spawner : Enemy
         idleState = new SpawnerIdleState(this, stateMachine, "Idle");
         battleState = new SpawnerBattleState(this, stateMachine, "Idle");
         jumpState = new SpawnerJumpState(this, stateMachine, "Jump");
-        moveState = new SpawnerMoveState(this, stateMachine, "Move");
+        moveState = new SpawnerMoveState(this, stateMachine, "Idle");
         dieState = new SpawnerDieState(this, stateMachine, "Die");
         attackState = new SpawnerAttackState(this, stateMachine, "Spawn");
     }
@@ -78,5 +81,27 @@ public class Enemy_Spawner : Enemy
                 player.DamageImpact();
             }
         }
+    }
+
+
+    public void SpawnPortal()
+    {
+        GameObject portal = Instantiate(portalEffect, transform.position, Quaternion.identity);
+        portal.transform.rotation = Quaternion.Euler(80, 0, 0);
+        portal.transform.position = PlayerManager.instance.player.transform.position + new Vector3(0f, 4f, 0f);
+        StartCoroutine(DissolveCoroutine());
+    }
+
+    private IEnumerator DissolveCoroutine()
+    {
+        yield return new WaitForSeconds(1.5f);
+        PlayerManager.instance.player.stateMachine.ChangeState(PlayerManager.instance.player.tpState);
+        StartCoroutine(nextSceneCoroutine());
+    }
+
+    private IEnumerator nextSceneCoroutine()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(1);
     }
 }

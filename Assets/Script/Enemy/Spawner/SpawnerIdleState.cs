@@ -23,7 +23,6 @@ public class SpawnerIdleState : SpawnerGroundedState
     {
         base.Update();
 
-        if (stateTimer < 0)
-            stateMachine.ChangeState(enemy.moveState);
+        
     }
 }
