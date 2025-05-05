@@ -9031,8 +9031,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 2.5215}
-  m_SizeDelta: {x: 287.4126, y: 465.2096}
+  m_AnchoredPosition: {x: 0, y: -1.2533}
+  m_SizeDelta: {x: 287.4126, y: 472.7592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &643481431
 MonoBehaviour:
@@ -9058,8 +9058,7 @@ MonoBehaviour:
     gezegeninde faaliyet g\xF6steren NovaHarvest Inc. \xE7al\u0131\u015Fanlar\u0131,
     maden alan\u0131nda \u201CK\u0131r\xE7\u0131l G\xF6lge\u201D t\xFCr\xFC avc\u0131n\u0131n
     varl\u0131\u011F\u0131n\u0131 bildirdi.\nG\xF6rev: \xD6rnek al\u0131nmadan yok
-    edilmesi.\nNot: Bu gezegende b\u0131\xE7ak f\u0131rlatman hi\xE7 bir i\u015Fe
-    yaramaz"
+    edilmesi."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_sharedMaterial: {fileID: -5157008723719786034, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
@@ -9086,7 +9085,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.55
+  m_fontSize: 25.7
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -14622,10 +14621,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "AC\u0130L: B\u0130YOLOJ\u0130K TEHL\u0130KE\n\u0130stasyon Theta-4 \xE7evresinde
+  m_text: "AC\u0130L: B\u0130YOLOJ\u0130K TEHL\u0130KE\nKule Theta-4 \xE7evresinde
     deney ka\xE7\u0131\u011F\u0131 yarat\u0131k t\xFCr\xFC tespit edildi: \"Beta-Red\"
-    larvas\u0131.\nG\xF6rev: \xD6ld\xFCr\xFClmesi\nUYARI: Bu gezegende yak\u0131n
-    sald\u0131r\u0131lar i\u015Fe yaramaz."
+    \u0130skeleti.\nG\xF6rev: \xD6ld\xFCr\xFClmesi"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_sharedMaterial: {fileID: -5157008723719786034, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
@@ -14652,7 +14650,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
+  m_fontSize: 34.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

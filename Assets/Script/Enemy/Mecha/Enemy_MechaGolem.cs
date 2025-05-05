@@ -45,7 +45,7 @@ public class Enemy_MechaGolem : Enemy
         base.AnimationSpecialAttackTrigger();
         GameObject laser = Instantiate(laserPrefab, laserSpawnPoint.position, Quaternion.identity);
         laser.GetComponent<Laser_Controller>().SetupLaser(stats, 3);
-        laser.transform.SetParent(laserSpawnPoint);
+        laser.transform.SetParent(this.transform);
     }
 
     public void SpawnPortal()
