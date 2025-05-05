@@ -141,6 +141,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -148,10 +161,10 @@ TextureImporter:
       name: RUN_0
       rect:
         serializedVersion: 2
-        x: 38
-        y: 14
-        width: 28
-        height: 30
+        x: 0
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +183,10 @@ TextureImporter:
       name: RUN_1
       rect:
         serializedVersion: 2
-        x: 130
-        y: 14
-        width: 32
-        height: 31
+        x: 96
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +205,10 @@ TextureImporter:
       name: RUN_2
       rect:
         serializedVersion: 2
-        x: 226
-        y: 17
-        width: 34
-        height: 29
+        x: 192
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +227,10 @@ TextureImporter:
       name: RUN_3
       rect:
         serializedVersion: 2
-        x: 323
-        y: 19
-        width: 34
-        height: 28
+        x: 288
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +249,10 @@ TextureImporter:
       name: RUN_4
       rect:
         serializedVersion: 2
-        x: 420
-        y: 17
-        width: 34
-        height: 30
+        x: 384
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +271,10 @@ TextureImporter:
       name: RUN_5
       rect:
         serializedVersion: 2
-        x: 517
-        y: 14
-        width: 32
-        height: 31
+        x: 480
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +293,10 @@ TextureImporter:
       name: RUN_6
       rect:
         serializedVersion: 2
-        x: 613
-        y: 14
-        width: 30
-        height: 30
+        x: 576
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +315,10 @@ TextureImporter:
       name: RUN_7
       rect:
         serializedVersion: 2
-        x: 709
-        y: 14
-        width: 29
-        height: 29
+        x: 672
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +337,10 @@ TextureImporter:
       name: RUN_8
       rect:
         serializedVersion: 2
-        x: 805
-        y: 14
-        width: 29
-        height: 29
+        x: 768
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +359,10 @@ TextureImporter:
       name: RUN_9
       rect:
         serializedVersion: 2
-        x: 902
-        y: 14
-        width: 28
-        height: 30
+        x: 864
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +381,10 @@ TextureImporter:
       name: RUN_10
       rect:
         serializedVersion: 2
-        x: 997
-        y: 19
-        width: 29
-        height: 27
+        x: 960
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +403,10 @@ TextureImporter:
       name: RUN_11
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 21
-        width: 33
-        height: 26
+        x: 1056
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +425,10 @@ TextureImporter:
       name: RUN_12
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 18
-        width: 30
-        height: 28
+        x: 1152
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +447,10 @@ TextureImporter:
       name: RUN_13
       rect:
         serializedVersion: 2
-        x: 1287
-        y: 14
-        width: 27
-        height: 32
+        x: 1248
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +469,10 @@ TextureImporter:
       name: RUN_14
       rect:
         serializedVersion: 2
-        x: 1385
-        y: 14
-        width: 25
-        height: 31
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +491,10 @@ TextureImporter:
       name: RUN_15
       rect:
         serializedVersion: 2
-        x: 1481
-        y: 14
-        width: 25
-        height: 30
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,7 +513,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 60b66117df93d47af9d344f0ec396810
     internalID: 0
     vertices: []
     indices: 
@@ -508,7 +521,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":16.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       RUN_0: -4726913989911992049
       RUN_1: -1224304467317232117
