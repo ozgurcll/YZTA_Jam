@@ -22,7 +22,6 @@ public class SpawnerMoveState : SpawnerGroundedState
     {
         base.Update();
 
-        enemy.SetVelocity(enemy.moveSpeed * enemy.facingDir, rb.linearVelocity.y);
 
         if (enemy.IsWallDetected() || !enemy.IsGroundDetected())
         {

@@ -12,8 +12,10 @@ public class GolemDieState : EnemyState
     public override void Enter()
     {
         base.Enter();
+        enemy.cd.enabled = false;
         enemy.StartCoroutine(DieCoroutine());
-        enemy.dialogPanel.SetActive(true);
+        if (enemy.dialogPanel != null)
+            enemy.dialogPanel.SetActive(true);
     }
 
     public override void Update()
@@ -24,7 +26,7 @@ public class GolemDieState : EnemyState
     {
         yield return new WaitForSeconds(2f);
         rb.linearVelocity = new Vector2(0, 10);
-        enemy.dialogPanel.SetActive(false);
-        enemy.cd.enabled = false;
+        if (enemy.dialogPanel != null)
+            enemy.dialogPanel.SetActive(false);
     }
 }

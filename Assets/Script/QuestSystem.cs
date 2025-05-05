@@ -6,7 +6,7 @@ public class QuestSystem : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 {
     private Animator anim => GetComponent<Animator>();
 
-    [SerializeField] private int sceneIndex;
+    [SerializeField] private string sceneIndex;
     [SerializeField] private QuestTransitionManager transitionManager;
 
     public void OnPointerEnter(PointerEventData eventData)

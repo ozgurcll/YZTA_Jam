@@ -14,7 +14,7 @@ public class SpawnerDieState : EnemyState
     {
         base.Enter();
         enemy.cd.enabled = false;
-
+        enemy.StartCoroutine(DieCoroutine());
         stateTimer = .4f;
     }
 
@@ -28,5 +28,11 @@ public class SpawnerDieState : EnemyState
         base.Update();
         if (stateTimer > 0)
             rb.linearVelocity = new Vector2(0, 10);
+    }
+
+    private IEnumerator DieCoroutine()
+    {
+        yield return new WaitForSeconds(2f);
+        enemy.SpawnPortal();
     }
 }

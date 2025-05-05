@@ -11,12 +11,12 @@ public class QuestTransitionManager : MonoBehaviour
     public float portalDelay = 1f;
     public float dissolveDelay = 1.5f;
 
-    public void StartTransition(int sceneIndex)
+    public void StartTransition(string sceneIndex)
     {
         StartCoroutine(TransitionSequence(sceneIndex));
     }
 
-    IEnumerator TransitionSequence(int sceneIndex)
+    IEnumerator TransitionSequence(string sceneIndex)
     {
         portalEffect.transform.position = PlayerManager.instance.player.transform.position + new Vector3(0f, 4f, 0f);
         portalEffect.SetActive(true);
