@@ -6284,7 +6284,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Bunun olaca\u011F\u0131n\u0131 biliyordum. Ustam hakl\u0131yd\u0131..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -6350,7 +6350,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &311484869
@@ -10750,8 +10750,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jamlemek i\xE7in pek uygun bir alan de\u011Fil gibi"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
-  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
+  m_sharedMaterial: {fileID: -5157008723719786034, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12884,8 +12884,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Orda resmen katliam ya\u015Fand\u0131. O gen\xE7ler i\xE7in \xE7ok \xFCz\xFCl\xFCyorum"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
-  m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
+  m_sharedMaterial: {fileID: -5157008723719786034, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12950,7 +12950,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1161493573
@@ -13020,7 +13020,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bunu yapabilirsin. Onu durdur.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e41502beba76e4c8ab719ad64c13c738, type: 2}
   m_sharedMaterial: {fileID: 5496311127139801739, guid: 1396d8867bb894d0ca5c204becb43fe7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -13086,7 +13086,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1167768935
