@@ -5,13 +5,16 @@ using System.Collections;
 public class Player : Entity
 {
     public PlayerFx fx { get; private set; }
-    [Header("Attack details")]
-    public Vector2 attackMovement;
 
-    [Header("Move info")]
-    public float moveSpeed = 12f;
+    [Header("Move Info")]
+    public float moveSpeed;
     public float jumpForce;
+    public int jumpCount = 1;
 
+    [Header("Dash Info")]
+    public float dashSpeed;
+    public float dashDuration;
+    public float dashDir { get; private set; }
     public bool isBusy { get; private set; }
 
     [SerializeField] private GameObject knifePrefab;
@@ -24,6 +27,8 @@ public class Player : Entity
     public PlayerAirState airState { get; private set; }
     public PlayerAttackState attackState { get; private set; }
     public PlayerThrowState throwState { get; private set; }
+    public PlayerDashState dashState { get; private set; }
+    public PlayerTpState tpState { get; private set; }
 
     protected override void Awake()
     {
@@ -35,6 +40,8 @@ public class Player : Entity
         airState = new PlayerAirState(this, stateMachine, "Jump");
         attackState = new PlayerAttackState(this, stateMachine, "Attack");
         throwState = new PlayerThrowState(this, stateMachine, "Throw");
+        dashState = new PlayerDashState(this, stateMachine, "Move");
+        tpState = new PlayerTpState(this, stateMachine, "Teleport");
     }
 
     protected override void Start()
@@ -60,11 +67,25 @@ public class Player : Entity
         isBusy = false;
     }
 
+    public void CheckForDashInput()
+    {
+        if (IsWallDetected())
+            return;
+
+        dashDir = Input.GetAxisRaw("Horizontal");
+
+        if (dashDir == 0)
+            dashDir = -facingDir;
+
+
+        stateMachine.ChangeState(dashState);
+    }
+
     public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
     public void KnifeThrow()
     {
         GameObject newKnife = Instantiate(knifePrefab, attackCheck.position, Quaternion.identity);
-        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir);
+        newKnife.GetComponent<Knife_Controller>().SetupArrow(knifeSpeed * facingDir, stats);
     }
 }

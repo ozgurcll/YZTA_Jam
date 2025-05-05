@@ -9,6 +9,7 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Enter()
     {
         base.Enter();
+
     }
 
     public override void Exit()
@@ -19,6 +20,7 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Update()
     {
         base.Update();
+        player.fx.PlayDustFX();
 
         player.SetVelocity(xInput * player.moveSpeed, rb.linearVelocityY);
 

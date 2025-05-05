@@ -6,7 +6,6 @@ public class EntityFx : MonoBehaviour
 {
     protected Player player;
     protected SpriteRenderer sr;
-
     [Header("Pop Up Text")]
     [SerializeField] private GameObject popUpTextPrefab;
 
@@ -37,7 +36,6 @@ public class EntityFx : MonoBehaviour
 
         newText.GetComponent<TextMeshPro>().text = _text;
     }
-
 
     public void MakeTransprent(bool _transprent)
     {

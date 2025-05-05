@@ -10,6 +10,7 @@ public class PlayerJumpState : PlayerState
     {
         base.Enter();
         player.SetVelocity(rb.linearVelocityX, player.jumpForce);
+        player.fx.PlayDustFX();
 
     }
 
@@ -21,8 +22,16 @@ public class PlayerJumpState : PlayerState
     public override void Update()
     {
         base.Update();
-
+        if (xInput != 0)
+            player.SetVelocity(player.moveSpeed * .8f * xInput, rb.linearVelocityY);
         if (rb.linearVelocityY < 0)
             stateMachine.ChangeState(player.airState);
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            stateMachine.ChangeState(player.throwState);
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+            stateMachine.ChangeState(player.attackState);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) )
+            player.CheckForDashInput();
     }
 }

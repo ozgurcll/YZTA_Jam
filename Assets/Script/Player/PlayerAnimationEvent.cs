@@ -6,4 +6,22 @@ public class PlayerAnimationEvent : MonoBehaviour
 
     private void AnimationTrigger() => player.AnimationTrigger();
     private void KnifeAttack() => player.KnifeThrow();
+
+
+    private void AttackTrigger()
+    {
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(player.attackCheck.position, player.attackCheckRadius);
+
+        foreach (var hit in colliders)
+        {
+            if (hit.GetComponent<Enemy>() != null)
+            {
+                EnemyStats _target = hit.GetComponent<EnemyStats>();
+
+                if (_target != null)
+                    player.stats.DoDamage(_target);
+
+            }
+        }
+    }
 }

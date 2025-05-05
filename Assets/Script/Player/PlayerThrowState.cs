@@ -22,8 +22,8 @@ public class PlayerThrowState : PlayerState
     {
         base.Update();
 
-        if (stateTimer < 0)
-            player.SetZeroVelocity();
+        if (xInput != 0)
+            player.SetVelocity(player.moveSpeed * .5f * xInput, rb.linearVelocityY);
 
         if (triggerCalled)
             stateMachine.ChangeState(player.idleState);
